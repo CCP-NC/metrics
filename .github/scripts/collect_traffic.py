@@ -20,7 +20,7 @@ class GitHubTrafficCollector:
         self.repo = os.environ['REPO_NAME']
         self.org = "CCP-NC"
         self.base_url = f"https://api.github.com/repos/{self.org}/{self.repo}"
-        self.stats_dir = Path(".github/traffic-stats")
+        self.stats_dir = Path("traffic-stats")
         self.stats_dir.mkdir(parents=True, exist_ok=True)
 
         
@@ -80,7 +80,7 @@ class GitHubTrafficCollector:
         filename = self.stats_dir / f"{metric_name}-{timestamp}.json"
         with open(filename, 'w') as f:
             json.dump({
-                "collected_at": datetime.utcnow().isoformat(),
+                "collected_at": datetime.now(datetime.timezone.utc).isoformat(),
                 "data": data
             }, f, indent=2)
 

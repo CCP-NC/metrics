@@ -1,0 +1,92 @@
+# .github/workflows/org-traffic-collector.yml
+name: CCP-NC Organisation Traffic Collection
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # Twice daily
+  workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: 'Force refresh all repositories'
+        type: boolean
+        default: false
+
+jobs:
+  discover-repos:
+    runs-on: ubuntu-latest
+    outputs:
+      repo_matrix: ${{ steps.list-repos.outputs.repos }}
+    steps:
+      - name: List Organization Repositories
+        id: list-repos
+        env:
+          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          ORG_NAME: CCP-NC
+        run: |
+          # Get all repos in the organization
+          repos=$(gh api graphql -f query='
+            query($org: String!) {
+              organization(login: $org) {
+                repositories(first: 100, privacy: PUBLIC) {
+                  nodes {
+                    name
+                    isArchived
+                  }
+                }
+              }
+            }' -f org=$ORG_NAME | jq -c '.data.organization.repositories.nodes | map(select(.isArchived == false)) | map(.name)')
+          echo "repos=${repos}" >> $GITHUB_OUTPUT
+
+  collect-traffic:
+    needs: discover-repos
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repository: ${{ fromJson(needs.discover-repos.outputs.repo_matrix) }}
+      # Allow other repos to continue if one fails
+      fail-fast: false
+      # Limit parallel jobs to avoid API rate limits
+      max-parallel: 5
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: CCP-NC/${{ matrix.repository }}
+          token: ${{ secrets.ADMIN_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+        
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy requests
+
+      - name: Collect Traffic Data
+        env:
+          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          REPO_NAME: ${{ matrix.repository }}
+        run: |
+          python .github/scripts/collect_traffic.py || echo "Data collection failed for $REPO_NAME"
+
+      - name: Commit and Push Changes
+        run: |
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add .github/traffic-stats/
+            if ! git diff-index --quiet HEAD --; then
+                git commit -m "chore: update traffic stats $(date +%Y-%m-%d)"
+                git push
+            else
+                echo "No changes to commit"
+            fi

@@ -54,7 +54,7 @@ class GitHubTrafficCollector:
             "paths": "traffic/popular/paths"
         }
         
-        timestamp = datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+        timestamp = datetime.utcnow().strftime("%Y-%m-%d")
         
         # Collect all metrics
         daily_data = {
@@ -81,7 +81,7 @@ class GitHubTrafficCollector:
         filename = self.stats_dir / f"{self.repo}-{metric_name}-{timestamp}.json"
         with open(filename, 'w') as f:
             json.dump({
-                "collected_at": datetime.now(datetime.timezone.utc).isoformat(),
+                "collected_at": datetime.utcnow().isoformat(),
                 "data": data
             }, f, indent=2)
 

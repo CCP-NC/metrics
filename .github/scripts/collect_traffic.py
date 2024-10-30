@@ -1,4 +1,5 @@
 # .github/scripts/collect_traffic.py
+import argparse
 import os
 import json
 import pandas as pd
@@ -15,9 +16,9 @@ import time
 
 
 class GitHubTrafficCollector:
-    def __init__(self):
+    def __init__(self, repo):
         self.token = os.environ['GH_TOKEN']
-        self.repo = os.environ['REPO_NAME']
+        self.repo = repo
         self.org = "CCP-NC"
         self.base_url = f"https://api.github.com/repos/{self.org}/{self.repo}"
         self.stats_dir = Path("traffic-stats")
@@ -99,5 +100,9 @@ class GitHubTrafficCollector:
         df.to_csv(summary_file, index=False)
 
 if __name__ == "__main__":
-    collector = GitHubTrafficCollector()
+    parser = argparse.ArgumentParser(description='Collect GitHub traffic metrics.')
+    parser.add_argument('repo', help='The name of the repository to collect traffic data for.')
+    args = parser.parse_args()
+
+    collector = GitHubTrafficCollector(args.repo)
     collector.collect_metrics()

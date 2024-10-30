@@ -164,7 +164,9 @@ class GitHubTrafficCollector:
                 df = pd.read_csv(summary_file)
                 mask = (df["timestamp"] == daily_data["timestamp"]) & (df["repository"] == daily_data["repository"])
                 if mask.any():
-                    df.loc[mask] = pd.Series(daily_data)
+                    # Update the existing row
+                    for key, value in daily_data.items():
+                        df.loc[mask, key] = value
                 else:
                     df = pd.concat([df, pd.DataFrame([daily_data])], ignore_index=True)
             else:

@@ -7,29 +7,6 @@ This repository automates the collection, storage, and persistence of GitHub tra
 - **Long-Term Data Storage**: Metrics are stored as JSON files, with a summary stored in CSV format to enable easy analysis.
 - **Extensibility**: The project can be easily expanded to include additional metrics or modify the collection frequency.
 
-## Repository Structure
-
-```plaintext
-org-metrics-collector/
-├── .github/
-│   ├── workflows/
-│   │   └── org-traffic-collector.yml       # GitHub Actions workflow file
-│   └── scripts/
-│       └── collect_traffic.py              # Main script for traffic data collection
-│
-├── traffic-stats/                          # Directory for storing collected metrics data
-│   ├── summary.csv                         # Aggregated metrics summary for all repos
-│   ├── archive/                            # Subdirectory for older metrics data
-│   └── raw_data/                           # Subdirectory for raw daily JSON data
-│       ├── views-YYYY-MM-DD.json           # Individual traffic metric JSON files
-│       ├── clones-YYYY-MM-DD.json
-│       ├── ...
-│
-├── requirements.txt                        # Python dependencies
-├── README.md                               # Project overview and instructions
-└── LICENSE                                 # Project license
-```
-
 ## Prerequisites
 GitHub Personal Access Token (PAT) with repo, read:org, and public_repo permissions.
 Python 3.8+ for local testing.
@@ -38,7 +15,7 @@ Python 3.8+ for local testing.
 1. Clone the Repository
 ```bash
 git clone https://github.com/CCP-NC/metrics.git
-cd org-metrics-collector
+cd metrics
 ```
 
 2. Set Up Environment Variables
@@ -47,7 +24,6 @@ Create a .env file in the root directory and add the following:
 ```plaintext
 GH_TOKEN=your_github_token_here
 ORG_NAME=CCP-NC
-REPO_NAME=test-repo  # Set to a test repository name
 ```
 
 3. Install Dependencies
@@ -60,10 +36,10 @@ pip install -r requirements.txt
 ```
 
 4. Run Locally for Testing
-Execute the main script locally to verify it collects metrics successfully:
+Execute the main script locally to verify it collects metrics successfully. The script takes in the repository name as an argument:
 
 ```bash
-python .github/scripts/collect_traffic.py
+python .github/scripts/collect_traffic.py <repo-name>
 ```
 
 5. Deploy Workflow to GitHub
@@ -71,7 +47,7 @@ After verifying locally, commit and push changes to deploy the GitHub Actions wo
 
 ## Usage
 
-**Traffic Data**: Raw daily JSON data is saved in `traffic-stats/raw_data/` for each metric (e.g., views, clones).
+**Traffic Data**: Raw daily JSON data is saved in `traffic-stats/` for each metric (e.g., views, clones) and each repo.
 
 **Summary**: A daily summary is maintained in `traffic-stats/summary.csv`.
 

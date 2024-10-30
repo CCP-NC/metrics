@@ -10,11 +10,27 @@ on:
         default: false
 
 jobs:
-  discover-repos:
+  collect-and-commit-traffic:
     runs-on: ubuntu-latest
-    outputs:
-      repo_matrix: ${{ steps.list-repos.outputs.repos }}
     steps:
+      - name: Check out Metrics Repository
+        uses: actions/checkout@v4
+        with:
+          repository: CCP-NC/metrics
+          token: ${{ secrets.ADMIN_TOKEN }}
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: List Organization Repositories
         id: list-repos
         env:
@@ -33,98 +49,17 @@ jobs:
                 }
               }
             }' -f org=$ORG_NAME | jq -c '.data.organization.repositories.nodes | map(select(.isArchived == false)) | map(.name)')
-          echo "repos=${repos}" >> $GITHUB_OUTPUT
-
-  setup-environment:
-    runs-on: ubuntu-latest
-    outputs:
-      python-version: ${{ steps.setup-python.outputs.python-version }}
-    steps:
-      - name: Checkout Metrics Repository
-        uses: actions/checkout@v4
-        with:
-          repository: CCP-NC/metrics
-          token: ${{ secrets.ADMIN_TOKEN }}
-          fetch-depth: 1
-
-      - name: Set up Python
-        id: setup-python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          cache: 'pip'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Upload workspace
-        uses: actions/upload-artifact@v3
-        with:
-          name: workspace
-          path: |
-            .
-            !.git
-          retention-days: 1
-
-  collect-traffic:
-    needs: [discover-repos, setup-environment]
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        repository: ${{ fromJson(needs.discover-repos.outputs.repo_matrix) }}
-      fail-fast: false
-      max-parallel: 2
-    
-    steps:
-      - name: Download workspace
-        uses: actions/download-artifact@v3
-        with:
-          name: workspace
-          path: .
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ needs.setup-environment.outputs.python-version }}
-          cache: 'pip'
+          echo "repos=$repos" >> $GITHUB_ENV
 
       - name: Collect Traffic Data
         env:
           GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
-          REPO_NAME: ${{ matrix.repository }}
+          REPO_NAMES: ${{ env.repos }}
         run: |
-          python .github/scripts/collect_traffic.py ${{ matrix.repository }}
-
-      - name: Upload traffic stats
-        uses: actions/upload-artifact@v3
-        with:
-          name: traffic-stats-${{ matrix.repository }}
-          path: traffic-stats/
-          retention-days: 1
-
-  commit-changes:
-    needs: collect-traffic
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Metrics Repository
-        uses: actions/checkout@v4
-        with:
-          repository: CCP-NC/metrics
-          token: ${{ secrets.ADMIN_TOKEN }}
-          fetch-depth: 1
-
-      - name: Download all traffic stats
-        uses: actions/download-artifact@v3
-        with:
-          path: artifacts
-
-      - name: Merge artifacts
-        run: |
-          mkdir -p traffic-stats
-          cp -r artifacts/traffic-stats-*/* traffic-stats/
-          rm -rf artifacts
+          for repo in $(echo $REPO_NAMES | jq -r '.[]'); do
+            echo "Collecting traffic data for $repo"
+            python .github/scripts/collect_traffic.py "$repo"
+          done
 
       - name: Commit and Push Changes
         run: |

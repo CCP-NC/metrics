@@ -1,0 +1,4 @@
+2024-10-30 00:09:56,602 - ERROR - Error collecting views for metrics: type object 'datetime.datetime' has no attribute 'timezone'
+2024-10-30 00:09:56,688 - ERROR - Error collecting clones for metrics: type object 'datetime.datetime' has no attribute 'timezone'
+2024-10-30 00:09:56,779 - ERROR - Error collecting referrers for metrics: type object 'datetime.datetime' has no attribute 'timezone'
+2024-10-30 00:09:56,895 - ERROR - Error collecting paths for metrics: type object 'datetime.datetime' has no attribute 'timezone'

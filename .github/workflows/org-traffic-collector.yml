@@ -54,9 +54,6 @@ jobs:
           token: ${{ secrets.ADMIN_TOKEN }}
           fetch-depth: 0
 
-      - name: Pull latest changes
-        run: git pull --rebase
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -82,14 +79,42 @@ jobs:
         run: |
           python .github/scripts/collect_traffic.py ${{ matrix.repository }} || echo "Data collection failed for ${{ matrix.repository }}"
 
+      # Upload the traffic-stats directory as an artifact
+      - name: Upload traffic stats
+        uses: actions/upload-artifact@v3
+        with:
+          name: traffic-stats
+          path: traffic-stats/
+          retention-days: 1
+
+  commit-changes:
+    needs: collect-traffic
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Metrics Repository
+        uses: actions/checkout@v4
+        with:
+          repository: CCP-NC/metrics
+          token: ${{ secrets.ADMIN_TOKEN }}
+          fetch-depth: 0
+
+      - name: Pull latest changes
+        run: git pull --rebase
+
+      - name: Download all traffic stats
+        uses: actions/download-artifact@v3
+        with:
+          name: traffic-stats
+          path: traffic-stats
+
       - name: Commit and Push Changes
         run: |
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            git add traffic-stats/
-            if ! git diff-index --quiet HEAD --; then
-                git commit -m "chore: update traffic stats $(date +%Y-%m-%d)"
-                git push
-            else
-                echo "No changes to commit"
-            fi
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add traffic-stats/
+          if ! git diff-index --quiet HEAD --; then
+              git commit -m "chore: update traffic stats $(date +%Y-%m-%d)"
+              git push
+          else
+              echo "No changes to commit"
+          fi

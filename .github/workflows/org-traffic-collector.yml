@@ -44,7 +44,7 @@ jobs:
       # Allow other repos to continue if one fails
       fail-fast: false
       # Limit parallel jobs to avoid API rate limits
-      max-parallel: 5
+      max-parallel: 1
     
     steps:
       - name: Checkout Metrics Repository

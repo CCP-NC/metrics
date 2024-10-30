@@ -1,4 +1,3 @@
-# .github/scripts/collect_traffic.py
 import argparse
 import os
 import json
@@ -7,13 +6,7 @@ import requests
 from datetime import datetime, timedelta
 from pathlib import Path
 import logging
-
 import time
-
-
-
-
-
 
 class GitHubTrafficCollector:
     def __init__(self, repo):
@@ -73,6 +66,9 @@ class GitHubTrafficCollector:
                 elif metric_name == "referrers":
                     referrer_metrics = self._process_referrers(data)
                     daily_data.update(referrer_metrics)
+                elif metric_name == "paths":
+                    path_metrics = self._process_paths(data)
+                    daily_data.update(path_metrics)
             except Exception as e:
                 logging.error(f"Error collecting {metric_name} for {self.repo}: {e}")
                 if metric_name in ["views", "clones"]:
@@ -80,7 +76,8 @@ class GitHubTrafficCollector:
                     daily_data[f"{metric_name}_uniques"] = 0
                 elif metric_name == "referrers":
                     daily_data.update(self._process_referrers([]))
-
+                elif metric_name == "paths":
+                    daily_data.update(self._process_paths([]))
 
         self._update_summary(daily_data)
 
@@ -106,7 +103,7 @@ class GitHubTrafficCollector:
         df = pd.concat([df, new_row], ignore_index=True)
         df.to_csv(summary_file, index=False)
 
-    
+
     def _process_referrers(self, referrers_data):
         """Process referrers data to extract summary metrics."""
         if not referrers_data:
@@ -131,6 +128,41 @@ class GitHubTrafficCollector:
             'total_referrer_count': sum(r.get('count', 0) for r in referrers_data),
             'total_referrer_uniques': sum(r.get('uniques', 0) for r in referrers_data),
             'distinct_referrers': len(referrers_data)
+        }
+    
+
+
+    def _process_paths(self, paths_data):
+        """Process paths data to extract summary metrics."""
+        if not paths_data:
+            return {
+                'top_path': 'none',
+                'top_path_count': 0,
+                'top_path_uniques': 0,
+                'total_path_count': 0,
+                'total_path_uniques': 0,
+                'distinct_paths': 0,
+                'readme_views': 0,
+                'readme_uniques': 0
+            }
+
+        # Sort paths by count
+        sorted_paths = sorted(paths_data, key=lambda x: (x.get('count', 0), x.get('uniques', 0)), reverse=True)
+        top_path = sorted_paths[0] if sorted_paths else {'path': 'none', 'count': 0, 'uniques': 0}
+        
+        # Calculate README metrics (considering both /README.md and /readme.md)
+        readme_paths = [p for p in paths_data if p.get('path', '').lower() == '/readme.md']
+        readme_stats = readme_paths[0] if readme_paths else {'count': 0, 'uniques': 0}
+        
+        return {
+            'top_path': top_path.get('path', 'none'),
+            'top_path_count': top_path.get('count', 0),
+            'top_path_uniques': top_path.get('uniques', 0),
+            'total_path_count': sum(p.get('count', 0) for p in paths_data),
+            'total_path_uniques': sum(p.get('uniques', 0) for p in paths_data),
+            'distinct_paths': len(paths_data),
+            'readme_views': readme_stats.get('count', 0),
+            'readme_uniques': readme_stats.get('uniques', 0)
         }
 
 if __name__ == "__main__":

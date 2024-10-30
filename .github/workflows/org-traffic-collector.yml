@@ -54,6 +54,12 @@ jobs:
           token: ${{ secrets.ADMIN_TOKEN }}
           fetch-depth: 0
 
+      - name: Download Traffic Collection Script
+        run: |
+          mkdir -p .github/scripts
+          curl -o .github/scripts/collect_traffic.py \
+            -L https://raw.githubusercontent.com/CCP-NC/metrics/main/.github/scripts/collect_traffic.py
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:

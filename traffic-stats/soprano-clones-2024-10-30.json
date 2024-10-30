@@ -1,0 +1,29 @@
+{
+  "collected_at": "2024-10-30T00:53:23.697579",
+  "data": {
+    "count": 10,
+    "uniques": 7,
+    "clones": [
+      {
+        "timestamp": "2024-10-17T00:00:00Z",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2024-10-18T00:00:00Z",
+        "count": 5,
+        "uniques": 4
+      },
+      {
+        "timestamp": "2024-10-23T00:00:00Z",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2024-10-29T00:00:00Z",
+        "count": 3,
+        "uniques": 2
+      }
+    ]
+  }
+}

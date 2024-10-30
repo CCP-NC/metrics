@@ -70,10 +70,17 @@ class GitHubTrafficCollector:
                 if metric_name in ["views", "clones"]:
                     daily_data[f"{metric_name}_count"] = data.get("count", 0)
                     daily_data[f"{metric_name}_uniques"] = data.get("uniques", 0)
+                elif metric_name == "referrers":
+                    referrer_metrics = self._process_referrers(data)
+                    daily_data.update(referrer_metrics)
             except Exception as e:
                 logging.error(f"Error collecting {metric_name} for {self.repo}: {e}")
-                daily_data[f"{metric_name}_count"] = 0
-                daily_data[f"{metric_name}_uniques"] = 0
+                if metric_name in ["views", "clones"]:
+                    daily_data[f"{metric_name}_count"] = 0
+                    daily_data[f"{metric_name}_uniques"] = 0
+                elif metric_name == "referrers":
+                    daily_data.update(self._process_referrers([]))
+
 
         self._update_summary(daily_data)
 
@@ -98,6 +105,33 @@ class GitHubTrafficCollector:
         new_row = pd.DataFrame([daily_data])
         df = pd.concat([df, new_row], ignore_index=True)
         df.to_csv(summary_file, index=False)
+
+    
+    def _process_referrers(self, referrers_data):
+        """Process referrers data to extract summary metrics."""
+        if not referrers_data:
+            return {
+                'top_referrer': 'none',
+                'top_referrer_count': 0,
+                'top_referrer_uniques': 0,
+                'total_referrer_count': 0,
+                'total_referrer_uniques': 0,
+                'distinct_referrers': 0
+            }
+
+        # Sort referrers by count
+        sorted_referrers = sorted(referrers_data, key=lambda x: (x.get('count', 0), x.get('uniques', 0)), reverse=True)
+        
+        top_referrer = sorted_referrers[0] if sorted_referrers else {'referrer': 'none', 'count': 0, 'uniques': 0}
+        
+        return {
+            'top_referrer': top_referrer.get('referrer', 'none'),
+            'top_referrer_count': top_referrer.get('count', 0),
+            'top_referrer_uniques': top_referrer.get('uniques', 0),
+            'total_referrer_count': sum(r.get('count', 0) for r in referrers_data),
+            'total_referrer_uniques': sum(r.get('uniques', 0) for r in referrers_data),
+            'distinct_referrers': len(referrers_data)
+        }
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Collect GitHub traffic metrics.')

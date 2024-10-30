@@ -21,8 +21,9 @@ class GitHubTrafficCollector:
         self.stats_dir.mkdir(parents=True, exist_ok=True)
         
         # Set up logging with rotation
+        logfilename = self.stats_dir / "traffic_collector.log"
         handler = RotatingFileHandler(
-            'traffic_collector.log', maxBytes=1000000, backupCount=5
+            logfilename, maxBytes=1000000, backupCount=5
         )
         logging.basicConfig(
             level=logging.INFO,

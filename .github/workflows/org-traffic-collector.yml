@@ -54,6 +54,9 @@ jobs:
           token: ${{ secrets.ADMIN_TOKEN }}
           fetch-depth: 0
 
+      - name: Pull latest changes
+        run: git pull --rebase
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -86,7 +89,6 @@ jobs:
             git add traffic-stats/
             if ! git diff-index --quiet HEAD --; then
                 git commit -m "chore: update traffic stats $(date +%Y-%m-%d)"
-                git pull --rebase
                 git push
             else
                 echo "No changes to commit"

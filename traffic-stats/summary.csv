@@ -536,14 +536,14 @@ timestamp,repository,clones_count,clones_uniques,views_count,views_uniques,top_r
 2024-11-28,soprano,1,1,20,5,Google,12,2,15,3,2,/CCP-NC/soprano,6,4,18,13,10,0,0
 2024-11-28,staged-recipes,0,0,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2024-11-29,.github,1,1,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2024-11-29,castepconv,1,1,12,5,castep-docs.github.io,4,1,8,4,3,/CCP-NC/castepconv,7,5,11,9,4,0,0
-2024-11-29,ccpnc-database,2,1,38,1,none,0,0,0,0,0,/CCP-NC/ccpnc-database,15,1,34,10,10,0,0
+2024-11-29,castepconv,2,2,12,5,castep-docs.github.io,4,1,9,4,3,/CCP-NC/castepconv,8,5,12,9,4,0,0
+2024-11-29,ccpnc-database,3,1,48,1,none,0,0,0,0,0,/CCP-NC/ccpnc-database,17,1,41,10,10,0,0
 2024-11-29,ccpnc-nomad-oasis,0,0,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2024-11-29,crystcif-parse,0,0,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2024-11-29,crystvis-js,1,1,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2024-11-29,dipolar_averages,0,0,1,1,Google,1,1,1,1,1,/CCP-NC/dipolar_averages,1,1,1,1,1,0,0
-2024-11-29,magresview,0,0,14,3,Google,1,1,1,1,1,/CCP-NC/magresview,14,3,14,3,1,0,0
-2024-11-29,magresview-2,0,0,12,8,jirasd.prd.nibr.novartis.net,2,1,3,2,2,/CCP-NC/magresview-2,6,5,10,9,5,0,0
+2024-11-29,magresview,0,0,17,4,Google,1,1,1,1,1,/CCP-NC/magresview,14,3,14,3,1,0,0
+2024-11-29,magresview-2,0,0,11,8,jirasd.prd.nibr.novartis.net,2,1,3,2,2,/CCP-NC/magresview-2,6,5,10,9,5,0,0
 2024-11-29,make-supercell,0,0,13,9,Google,10,6,10,6,1,/CCP-NC/make-supercell/blob/master/make-supercell.py,6,4,10,8,3,0,0
 2024-11-29,metrics,51,23,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2024-11-29,nomad-parser-magres,2,2,23,3,none,0,0,0,0,0,/CCP-NC/nomad-parser-magres,5,3,23,10,8,0,0
@@ -551,5 +551,5 @@ timestamp,repository,clones_count,clones_uniques,views_count,views_uniques,top_r
 2024-11-29,parse-fmt,3,2,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2024-11-29,pspot-site,1,1,4,1,ccp-nc.github.io,2,1,2,1,1,/CCP-NC/pspot-site/blob/master/generate/castep_keywords.json,1,1,2,2,2,0,0
 2024-11-29,pynics,0,0,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2024-11-29,soprano,1,1,20,5,Google,12,2,15,3,2,/CCP-NC/soprano,5,3,17,12,10,0,0
+2024-11-29,soprano,1,1,19,4,Google,12,2,15,3,2,/CCP-NC/soprano,5,3,17,12,10,0,0
 2024-11-29,staged-recipes,0,0,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0

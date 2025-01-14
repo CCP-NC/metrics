@@ -54,7 +54,7 @@ def combine_json_files(repo_name, data_type, output_file):
         combined_list = [{"timestamp": ts, "data": [{"referrer": referrer, "count": referrer_data["count"], "uniques": referrer_data["uniques"]} for referrer, referrer_data in data.items()]} for ts, data in combined_data.items()]
     elif data_type == "paths":
         combined_list = [{"timestamp": ts, "data": [{"path": path, "title": path_data["title"], "count": path_data["count"], "uniques": path_data["uniques"]} for path, path_data in data.items()]} for ts, data in combined_data.items()]
-        
+
     # Sort combined_list by timestamp
     combined_list = sorted(combined_list, key=lambda x: x["timestamp"])
 
@@ -64,6 +64,7 @@ def combine_json_files(repo_name, data_type, output_file):
 
 def main():
     repos = [
+        ".github",
         "castepconv",
         "ccpnc-database",
         "ccpnc-nomad-oasis",

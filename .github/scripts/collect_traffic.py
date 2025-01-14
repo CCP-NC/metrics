@@ -151,9 +151,43 @@ class GitHubTrafficCollector:
 
     def _save_raw_data(self, metric_name: str, data: Any, timestamp: str) -> None:
         """Save raw data with compression."""
-        filename = self.stats_dir / f"{self.repo}-{metric_name}-{timestamp}.json"
-        df = pd.DataFrame({'data': [data]})
-        df.to_json(filename, orient='records')
+        filename = self.stats_dir / f"{self.repo}-{metric_name}-combined.json"
+        combined_data = {}
+    
+        if filename.exists():
+            with open(filename, 'r') as file:
+                combined_data = {entry['timestamp']: entry for entry in json.load(file)}
+    
+        if metric_name in ["views", "clones"]:
+            for item in data.get("data", {}).get(metric_name, []):
+                ts = item["timestamp"]
+                if ts not in combined_data:
+                    combined_data[ts] = {"timestamp": ts, "count": 0, "uniques": 0}
+                combined_data[ts]["count"] = max(item["count"], combined_data[ts]["count"])
+                combined_data[ts]["uniques"] = max(item["uniques"], combined_data[ts]["uniques"])
+        else:
+            for item in data.get("data", []):
+                ts = timestamp
+                path = item["path"]
+                if ts not in combined_data:
+                    combined_data[ts] = {}
+                if path not in combined_data[ts]:
+                    combined_data[ts][path] = {"timestamp": ts, "path": path, "title": item["title"], "count": 0, "uniques": 0}
+                combined_data[ts][path]["count"] = max(item["count"], combined_data[ts][path]["count"])
+                combined_data[ts][path]["uniques"] = max(item["uniques"], combined_data[ts][path]["uniques"])
+    
+        # Convert combined_data to a list of dictionaries for JSON serialization
+        if metric_name in ["views", "clones"]:
+            combined_list = list(combined_data.values())
+        else:
+            combined_list = [{"timestamp": ts, "path": path, "title": data["title"], "count": data["count"], "uniques": data["uniques"]} for ts, paths in combined_data.items() for path, data in paths.items()]
+    
+        # Sort combined_list by timestamp
+        combined_list = sorted(combined_list, key=lambda x: x["timestamp"])
+    
+        # Write combined data to the output file
+        with open(filename, 'w') as file:
+            json.dump(combined_list, file, indent=4)
 
     def _update_summary(self, daily_data: Dict[str, Any]) -> None:
         """Update summary with efficient pandas operations."""

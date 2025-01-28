@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: CCP-NC/metrics
-          token: ${{ secrets.ADMIN_TOKEN }}
+          token: ${{ secrets.ORG_TRAFFIC_TOKEN }}  # Use scoped PAT
           fetch-depth: 1
 
       - name: Set up Python
@@ -34,7 +34,7 @@ jobs:
       - name: List Organization Repositories
         id: list-repos
         env:
-          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          GH_TOKEN: ${{ secrets.ORG_TRAFFIC_TOKEN }}  # Use scoped PAT
           ORG_NAME: CCP-NC
         run: |
           repos=$(gh api graphql -f query='
@@ -53,7 +53,7 @@ jobs:
 
       - name: Collect Traffic Data
         env:
-          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          GH_TOKEN: ${{ secrets.ORG_TRAFFIC_TOKEN }}  # Use scoped PAT
           REPO_NAMES: ${{ env.repos }}
         run: |
           for repo in $(echo $REPO_NAMES | jq -r '.[]'); do

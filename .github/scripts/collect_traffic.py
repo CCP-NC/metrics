@@ -82,9 +82,10 @@ class GitHubTrafficCollector:
 
         return None
 
-    def _process_referrers(self, referrers_data: Optional[list]) -> Dict[str, Any]:
+    def _process_referrers(self, referrers_data: Optional[Any]) -> Dict[str, Any]:
         """Process referrers data with optimized calculations."""
-        if not referrers_data:
+        if not referrers_data or not isinstance(referrers_data, list):
+            logging.warning(f"Invalid referrers data: {referrers_data}")
             return {
                 'top_referrer': 'none',
                 'top_referrer_count': 0,
@@ -111,9 +112,10 @@ class GitHubTrafficCollector:
             'distinct_referrers': len(df)
         }
 
-    def _process_paths(self, paths_data: Optional[list]) -> Dict[str, Any]:
+    def _process_paths(self, paths_data: Optional[Any]) -> Dict[str, Any]:
         """Process paths data with optimized calculations."""
-        if not paths_data:
+        if not paths_data or not isinstance(paths_data, list):
+            logging.warning(f"Invalid paths data: {paths_data}")
             return {
                 'top_path': 'none',
                 'top_path_count': 0,
@@ -153,15 +155,19 @@ class GitHubTrafficCollector:
         """Save raw data with compression."""
         filename = self.stats_dir / f"{self.repo}-{metric_name}-combined.json"
         combined_data = {}
-
-        data = data.get("items", {})
+    
+        # Handle different response formats based on the metric
+        if metric_name in ["views", "clones"]:
+            data = data.get(metric_name, [])  # Extract the list from the dictionary
+        elif metric_name in ["paths", "referrers"]:
+            data = data  # The response is already a list
+        logging.info(f"Saving {metric_name} data to {filename}")
     
         if filename.exists():
             with open(filename, 'r') as file:
                 combined_data = {entry['timestamp']: entry for entry in json.load(file)}
     
         if metric_name in ["views", "clones"]:
-            data = data.get(metric_name, [])
             for item in data:
                 ts = item["timestamp"]
                 if ts not in combined_data:
@@ -169,40 +175,43 @@ class GitHubTrafficCollector:
                 combined_data[ts]["count"] = max(item["count"], combined_data[ts]["count"])
                 combined_data[ts]["uniques"] = max(item["uniques"], combined_data[ts]["uniques"])
         elif metric_name == "paths":
+            # reformat combined data
+            combined_data = {entry['timestamp']: entry["data"] for entry in combined_data.values()}
             ts = timestamp
             if ts not in combined_data:
-                combined_data[ts] = {}
+                combined_data[ts] = []
             for item in data:
                 path = item["path"]
-                if path not in combined_data[ts]:
-                    combined_data[ts][path] = {"timestamp": ts, "path": path, "title": item["title"], "count": 0, "uniques": 0}
-                combined_data[ts][path]["count"] = max(item["count"], combined_data[ts][path]["count"])
-                combined_data[ts][path]["uniques"] = max(item["uniques"], combined_data[ts][path]["uniques"])
+                existing_item = next((i for i in combined_data[ts] if i["path"] == path), None)
+                if not existing_item:
+                    combined_data[ts].append({"path": path, "title": item.get("title", ""), "count": item["count"], "uniques": item["uniques"]})
+                else:
+                    existing_item["count"] = max(item["count"], existing_item["count"])
+                    existing_item["uniques"] = max(item["uniques"], existing_item["uniques"])
         elif metric_name == "referrers":
+            combined_data = {entry['timestamp']: entry["data"] for entry in combined_data.values()}
             ts = timestamp
             if ts not in combined_data:
-                combined_data[ts] = {}
+                combined_data[ts] = []
             for item in data:
-                if item["referrer"] not in combined_data[ts]:
-                    combined_data[ts][item["referrer"]] = {"timestamp": ts, "referrer": item["referrer"], "count": 0, "uniques": 0}
-                combined_data[ts][item["referrer"]]["count"] = max(item["count"], combined_data[ts][item["referrer"]]["count"])
-                combined_data[ts][item["referrer"]]["uniques"] = max(item["uniques"], combined_data[ts][item["referrer"]]["uniques"])
+                referrer = item["referrer"]
+                existing_item = next((i for i in combined_data[ts] if i["referrer"] == referrer), None)
+                if not existing_item:
+                    combined_data[ts].append({"referrer": referrer, "count": item["count"], "uniques": item["uniques"]})
+                else:
+                    existing_item["count"] = max(item["count"], existing_item["count"])
+                    existing_item["uniques"] = max(item["uniques"], existing_item["uniques"])
         else:
             logging.error(f"Invalid metric name: {metric_name}")
             return
     
-        # Convert combined_data to a list of dictionaries for JSON serialization
-        if metric_name in ["views", "clones"]:
-            combined_list = list(combined_data.values())
-        else:
-            combined_list = [{"timestamp": ts, "path": path, "title": data["title"], "count": data["count"], "uniques": data["uniques"]} for ts, paths in combined_data.items() for path, data in paths.items()]
-    
-        # Sort combined_list by timestamp
-        combined_list = sorted(combined_list, key=lambda x: x["timestamp"])
-    
-        # Write combined data to the output file
+        # Save the combined data back to the file
         with open(filename, 'w') as file:
-            json.dump(combined_list, file, indent=4)
+            if metric_name in ["views", "clones"]:
+                json.dump(list(combined_data.values()), file, indent=4)
+            else:
+                json.dump([{"timestamp": ts, "data": data} for ts, data in combined_data.items()], file, indent=4)
+
 
     def _update_summary(self, daily_data: Dict[str, Any]) -> None:
         """Update summary with efficient pandas operations."""
@@ -257,9 +266,9 @@ class GitHubTrafficCollector:
                         daily_data[f"{metric_name}_count"] = data.get("count", 0)
                         daily_data[f"{metric_name}_uniques"] = data.get("uniques", 0)
                     elif metric_name == "referrers":
-                        daily_data.update(self._process_referrers(data.get("data", [])))
+                        daily_data.update(self._process_referrers(data))
                     elif metric_name == "paths":
-                        daily_data.update(self._process_paths(data.get("data", [])))
+                        daily_data.update(self._process_paths(data))
                 except Exception as e:
                     logging.error(f"Error collecting {metric_name}: {str(e)}")
                     if metric_name in ["views", "clones"]:

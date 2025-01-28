@@ -257,9 +257,9 @@ class GitHubTrafficCollector:
                         daily_data[f"{metric_name}_count"] = data.get("count", 0)
                         daily_data[f"{metric_name}_uniques"] = data.get("uniques", 0)
                     elif metric_name == "referrers":
-                        daily_data.update(self._process_referrers(data))
+                        daily_data.update(self._process_referrers(data.get("data", [])))
                     elif metric_name == "paths":
-                        daily_data.update(self._process_paths(data))
+                        daily_data.update(self._process_paths(data.get("data", [])))
                 except Exception as e:
                     logging.error(f"Error collecting {metric_name}: {str(e)}")
                     if metric_name in ["views", "clones"]:

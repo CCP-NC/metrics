@@ -153,12 +153,15 @@ class GitHubTrafficCollector:
         """Save raw data with compression."""
         filename = self.stats_dir / f"{self.repo}-{metric_name}-combined.json"
         combined_data = {}
+
+        data = data.get("items", {})
     
         if filename.exists():
             with open(filename, 'r') as file:
                 combined_data = {entry['timestamp']: entry for entry in json.load(file)}
     
         if metric_name in ["views", "clones"]:
+            data = data.get(metric_name, [])
             for item in data:
                 ts = item["timestamp"]
                 if ts not in combined_data:
@@ -166,26 +169,24 @@ class GitHubTrafficCollector:
                 combined_data[ts]["count"] = max(item["count"], combined_data[ts]["count"])
                 combined_data[ts]["uniques"] = max(item["uniques"], combined_data[ts]["uniques"])
         elif metric_name == "paths":
-            for entry in data:
-                ts = entry["timestamp"]
-                for item in entry["data"]:
-                    path = item["path"]
-                    if ts not in combined_data:
-                        combined_data[ts] = {}
-                    if path not in combined_data[ts]:
-                        combined_data[ts][path] = {"timestamp": ts, "path": path, "title": item["title"], "count": 0, "uniques": 0}
-                    combined_data[ts][path]["count"] = max(item["count"], combined_data[ts][path]["count"])
-                    combined_data[ts][path]["uniques"] = max(item["uniques"], combined_data[ts][path]["uniques"])
-        elif metric_name == "referrers":
+            ts = timestamp
+            if ts not in combined_data:
+                combined_data[ts] = {}
             for item in data:
-                ts = item["timestamp"]
-                if ts not in combined_data:
-                    combined_data[ts] = {}
-                for referrer in item["data"]:
-                    if referrer["referrer"] not in combined_data[ts]:
-                        combined_data[ts][referrer["referrer"]] = {"timestamp": ts, "referrer": referrer["referrer"], "count": 0, "uniques": 0}
-                    combined_data[ts][referrer["referrer"]]["count"] = max(referrer["count"], combined_data[ts][referrer["referrer"]]["count"])
-                    combined_data[ts][referrer["referrer"]]["uniques"] = max(referrer["uniques"], combined_data[ts][referrer["referrer"]]["uniques"])
+                path = item["path"]
+                if path not in combined_data[ts]:
+                    combined_data[ts][path] = {"timestamp": ts, "path": path, "title": item["title"], "count": 0, "uniques": 0}
+                combined_data[ts][path]["count"] = max(item["count"], combined_data[ts][path]["count"])
+                combined_data[ts][path]["uniques"] = max(item["uniques"], combined_data[ts][path]["uniques"])
+        elif metric_name == "referrers":
+            ts = timestamp
+            if ts not in combined_data:
+                combined_data[ts] = {}
+            for item in data:
+                if item["referrer"] not in combined_data[ts]:
+                    combined_data[ts][item["referrer"]] = {"timestamp": ts, "referrer": item["referrer"], "count": 0, "uniques": 0}
+                combined_data[ts][item["referrer"]]["count"] = max(item["count"], combined_data[ts][item["referrer"]]["count"])
+                combined_data[ts][item["referrer"]]["uniques"] = max(item["uniques"], combined_data[ts][item["referrer"]]["uniques"])
         else:
             logging.error(f"Invalid metric name: {metric_name}")
             return

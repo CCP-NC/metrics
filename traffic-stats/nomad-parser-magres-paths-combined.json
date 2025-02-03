@@ -4675,5 +4675,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-03",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-parser-magres",
+                "title": "CCP-NC/nomad-parser-magres: NOMAD parser for the magres file format.",
+                "count": 10,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/develop",
+                "title": "CCP-NC/nomad-parser-magres: NOMAD parser for the magres file format.",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/develop/src/nomad_parser_magres",
+                "title": "nomad-parser-magres/src/nomad_parser_magres at develop \u00b7 CCP-NC/nomad-parser-...",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/develop/src/nomad_parser_magres/parsers/parser.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/parsers/parser.py at develop \u00b7 CC...",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/develop/src/nomad_parser_magres/parsers",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/parsers at develop \u00b7 CCP-NC/nomad...",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/develop/pyproject.toml",
+                "title": "nomad-parser-magres/pyproject.toml at develop \u00b7 CCP-NC/nomad-parser-magres",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/commit/14c10ca8d132b44a861942cf97444d9765a9ba3b",
+                "title": "Debug: efg normalizer error fixed \u00b7 CCP-NC/nomad-parser-magres@14c10ca",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/commits",
+                "title": "Commits \u00b7 CCP-NC/nomad-parser-magres",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/actions/runs/12163881458/job/33924167812",
+                "title": "removed test metadata field \u00b7 CCP-NC/nomad-parser-magres@e4ddde6",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/develop/tests/test_parser.py",
+                "title": "nomad-parser-magres/tests/test_parser.py at develop \u00b7 CCP-NC/nomad-parser-mag...",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

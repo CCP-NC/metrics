@@ -4828,5 +4828,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-06",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-parser-magres",
+                "title": "CCP-NC/nomad-parser-magres: NOMAD parser for the magres file format.",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/commit/14c10ca8d132b44a861942cf97444d9765a9ba3b",
+                "title": "Debug: efg normalizer error fixed \u00b7 CCP-NC/nomad-parser-magres@14c10ca",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint",
+                "title": "CCP-NC/nomad-parser-magres at fix_entrypoint",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

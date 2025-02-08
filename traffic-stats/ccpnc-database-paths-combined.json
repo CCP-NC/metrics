@@ -4587,5 +4587,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-08",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "CCP-NC/ccpnc-database",
+                "count": 12,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/pull/47",
+                "title": "Changed colour scheme to improve accessibility by jkshenton \u00b7 Pull Request #4...",
+                "count": 6,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/pulls",
+                "title": "Pull requests \u00b7 CCP-NC/ccpnc-database",
+                "count": 6,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-database",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/issues/30",
+                "title": "Search by DFT code \u00b7 Issue #30 \u00b7 CCP-NC/ccpnc-database",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commit/119d57877e4ccf6b6412ae705c57522e50cad41a",
+                "title": "Grayed out placeholder text in forms \u00b7 CCP-NC/ccpnc-database@119d578",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commit/9b90a06174818796ba1132ed3042354e41fc294c",
+                "title": "Comtact us button click colour change \u00b7 CCP-NC/ccpnc-database@9b90a06",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits/improve-accessibility",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-database",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/issues",
+                "title": "GitHub \u00b7 Where software is built",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/pull/47/commits",
+                "title": "Changed colour scheme to improve accessibility by jkshenton \u00b7 Pull Request #4...",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

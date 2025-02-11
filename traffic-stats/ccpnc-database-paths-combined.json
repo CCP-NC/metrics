@@ -4759,7 +4759,7 @@
             {
                 "path": "/CCP-NC/ccpnc-database",
                 "title": "CCP-NC/ccpnc-database",
-                "count": 7,
+                "count": 8,
                 "uniques": 1
             },
             {
@@ -4789,6 +4789,30 @@
             {
                 "path": "/CCP-NC/ccpnc-database/pulls",
                 "title": "Pull requests \u00b7 CCP-NC/ccpnc-database",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits/master",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-database",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits/minor_accessibility_updates",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-database",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/compare",
+                "title": "Compare \u00b7 CCP-NC/ccpnc-database",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/compare/master...minor_accessibility_updates",
+                "title": "Comparing master...minor_accessibility_updates \u00b7 CCP-NC/ccpnc-database",
                 "count": 1,
                 "uniques": 1
             }

@@ -5083,5 +5083,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-16",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "CCP-NC/ccpnc-database",
+                "count": 13,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-database",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/issues/30",
+                "title": "Search by DFT code \u00b7 Issue #30 \u00b7 CCP-NC/ccpnc-database",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/issues",
+                "title": "GitHub \u00b7 Where software is built",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/pull/48",
+                "title": "Minor accessibility updates by Sathya-S3 \u00b7 Pull Request #48 \u00b7 CCP-NC/ccpnc-da...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/pulls",
+                "title": "Pull requests \u00b7 CCP-NC/ccpnc-database",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/README.md",
+                "title": "ccpnc-database/README.md at master \u00b7 CCP-NC/ccpnc-database",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits/master",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-database",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits/minor_accessibility_updates",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-database",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/compare",
+                "title": "Compare \u00b7 CCP-NC/ccpnc-database",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -5815,5 +5815,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-21",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-parser-magres",
+                "title": "CCP-NC/nomad-parser-magres: NOMAD parser for the magres file format.",
+                "count": 14,
+                "uniques": 7
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/6d14ed85972bbe74b38a19a1766562d8f19e694c",
+                "title": "CCP-NC/nomad-parser-magres at 6d14ed85972bbe74b38a19a1766562d8f19e694c",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint",
+                "title": "CCP-NC/nomad-parser-magres at fix_entrypoint",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/commit/6d14ed85972bbe74b38a19a1766562d8f19e694c",
+                "title": "Change position of archiving code line \u00b7 CCP-NC/nomad-parser-magres@6d14ed8",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/develop/src/nomad_parser_magres",
+                "title": "nomad-parser-magres/src/nomad_parser_magres at develop \u00b7 CCP-NC/nomad-parser-...",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/develop/src/nomad_parser_magres/schema_packages",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages at develop \u00b7 CCP-...",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/6d14ed85972bbe74b38a19a1766562d8f19e694c/src/nomad_parser_magres/parsers/parser.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/parsers/parser.py at 6d14ed85972b...",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/commits/fix_entrypoint",
+                "title": "Commits \u00b7 CCP-NC/nomad-parser-magres",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/develop/pyproject.toml",
+                "title": "nomad-parser-magres/pyproject.toml at develop \u00b7 CCP-NC/nomad-parser-magres",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/91d6d23aa485dd460fc55066cfc80a23e565c3a0/README.md",
+                "title": "nomad-parser-magres/README.md at 91d6d23aa485dd460fc55066cfc80a23e565c3a0 \u00b7 C...",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

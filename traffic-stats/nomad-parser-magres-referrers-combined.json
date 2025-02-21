@@ -553,8 +553,13 @@
         "data": [
             {
                 "referrer": "Google",
-                "count": 24,
+                "count": 25,
                 "uniques": 6
+            },
+            {
+                "referrer": "github.com",
+                "count": 2,
+                "uniques": 1
             }
         ]
     }

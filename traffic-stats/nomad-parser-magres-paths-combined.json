@@ -6230,7 +6230,7 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres",
                 "title": "CCP-NC/nomad-parser-magres: NOMAD parser for the magres file format.",
-                "count": 28,
+                "count": 29,
                 "uniques": 11
             },
             {
@@ -6242,8 +6242,8 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/develop/src/nomad_parser_magres",
                 "title": "nomad-parser-magres/src/nomad_parser_magres at develop \u00b7 CCP-NC/nomad-parser-...",
-                "count": 5,
-                "uniques": 3
+                "count": 6,
+                "uniques": 4
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/6d14ed85972bbe74b38a19a1766562d8f19e694c",
@@ -6272,8 +6272,8 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/develop/src/nomad_parser_magres/schema_packages",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages at develop \u00b7 CCP-...",
-                "count": 3,
-                "uniques": 2
+                "count": 4,
+                "uniques": 3
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/commit/6d14ed85972bbe74b38a19a1766562d8f19e694c",
@@ -6286,6 +6286,12 @@
                 "title": "Commits \u00b7 CCP-NC/nomad-parser-magres",
                 "count": 3,
                 "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/pull/3",
+                "title": "Specialize parser for ccp-nc project by andreaa93 \u00b7 Pull Request #3 \u00b7 CCP-NC/...",
+                "count": 5,
+                "uniques": 2
             }
         ]
     }

@@ -1923,5 +1923,25 @@
                 "uniques": 2
             }
         ]
+    },
+    {
+        "timestamp": "2025-03-01",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "referrer": "researchgate.net",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "referrer": "castep-docs.github.io",
+                "count": 2,
+                "uniques": 2
+            }
+        ]
     }
 ]

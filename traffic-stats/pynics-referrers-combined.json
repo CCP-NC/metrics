@@ -505,6 +505,12 @@
     },
     {
         "timestamp": "2025-03-04",
-        "data": []
+        "data": [
+            {
+                "referrer": "chatgpt.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

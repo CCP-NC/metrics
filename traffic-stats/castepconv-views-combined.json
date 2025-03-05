@@ -296,7 +296,12 @@
     },
     {
         "timestamp": "2025-03-04T00:00:00Z",
-        "count": 3,
+        "count": 4,
+        "uniques": 2
+    },
+    {
+        "timestamp": "2025-03-05T00:00:00Z",
+        "count": 1,
         "uniques": 1
     }
 ]

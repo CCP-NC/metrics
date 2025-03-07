@@ -6756,8 +6756,8 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres",
                 "title": "CCP-NC/nomad-parser-magres: NOMAD parser for the magres file format.",
-                "count": 8,
-                "uniques": 5
+                "count": 13,
+                "uniques": 6
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/pull/3",
@@ -6780,8 +6780,8 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint",
                 "title": "CCP-NC/nomad-parser-magres at fix_entrypoint",
-                "count": 3,
-                "uniques": 1
+                "count": 4,
+                "uniques": 2
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/general-magres-parser",
@@ -6811,6 +6811,12 @@
                 "path": "/CCP-NC/nomad-parser-magres/blob/4edcdfed169f37052a856a1e9de8a0aca67a87a1/src/nomad_parser_magres/__init__.py",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/__init__.py at 4edcdfed169f37052a...",
                 "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/actions",
+                "title": "Workflow runs \u00b7 CCP-NC/nomad-parser-magres",
+                "count": 3,
                 "uniques": 1
             }
         ]

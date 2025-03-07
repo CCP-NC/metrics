@@ -6749,5 +6749,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-03-07",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-parser-magres",
+                "title": "CCP-NC/nomad-parser-magres: NOMAD parser for the magres file format.",
+                "count": 8,
+                "uniques": 5
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/pull/3",
+                "title": "Specialize parser for ccp-nc project by andreaa93 \u00b7 Pull Request #3 \u00b7 CCP-NC/...",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/pull/2",
+                "title": "Small fixes by andreaa93 \u00b7 Pull Request #2 \u00b7 CCP-NC/nomad-parser-magres \u00b7 Git...",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/pulls",
+                "title": "Pull requests \u00b7 CCP-NC/nomad-parser-magres",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint",
+                "title": "CCP-NC/nomad-parser-magres at fix_entrypoint",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/general-magres-parser",
+                "title": "CCP-NC/nomad-parser-magres at general-magres-parser",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/28e1e1c68a20fba9e005ee62e99ca956ade37c44/README.md",
+                "title": "nomad-parser-magres/README.md at 28e1e1c68a20fba9e005ee62e99ca956ade37c44 \u00b7 C...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/28e1e1c68a20fba9e005ee62e99ca956ade37c44/src/nomad_parser_magres/__init__.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/__init__.py at 28e1e1c68a20fba9e0...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/4edcdfed169f37052a856a1e9de8a0aca67a87a1/README.md",
+                "title": "nomad-parser-magres/README.md at 4edcdfed169f37052a856a1e9de8a0aca67a87a1 \u00b7 C...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/4edcdfed169f37052a856a1e9de8a0aca67a87a1/src/nomad_parser_magres/__init__.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/__init__.py at 4edcdfed169f37052a...",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

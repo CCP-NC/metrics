@@ -6839,7 +6839,7 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint",
                 "title": "CCP-NC/nomad-parser-magres at fix_entrypoint",
-                "count": 4,
+                "count": 10,
                 "uniques": 2
             },
             {
@@ -6857,8 +6857,8 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/pulls",
                 "title": "Pull requests \u00b7 CCP-NC/nomad-parser-magres",
-                "count": 3,
-                "uniques": 1
+                "count": 4,
+                "uniques": 2
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/general-magres-parser",
@@ -6882,6 +6882,24 @@
                 "path": "/CCP-NC/nomad-parser-magres/blob/4edcdfed169f37052a856a1e9de8a0aca67a87a1/README.md",
                 "title": "nomad-parser-magres/README.md at 4edcdfed169f37052a856a1e9de8a0aca67a87a1 \u00b7 C...",
                 "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres/schema_packages",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages at fix_entrypoint...",
+                "count": 6,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres",
+                "title": "nomad-parser-magres/src/nomad_parser_magres at fix_entrypoint \u00b7 CCP-NC/nomad-...",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/fix_entrypoint/src/nomad_parser_magres/schema_packages/package.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages/package.py at fix...",
+                "count": 3,
                 "uniques": 1
             }
         ]

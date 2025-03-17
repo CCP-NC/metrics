@@ -7435,5 +7435,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-03-17",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint",
+                "title": "CCP-NC/nomad-parser-magres at fix_entrypoint",
+                "count": 10,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres",
+                "title": "CCP-NC/nomad-parser-magres: NOMAD parser for the magres file format.",
+                "count": 7,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres/schema_packages",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages at fix_entrypoint...",
+                "count": 7,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres",
+                "title": "nomad-parser-magres/src/nomad_parser_magres at fix_entrypoint \u00b7 CCP-NC/nomad-...",
+                "count": 6,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/e4ddde685f38cc41dc7b823cf1bf7da09ff484e6/src/nomad_parser_magres/parsers/parser.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/parsers/parser.py at e4ddde685f38...",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/fix_entrypoint/src/nomad_parser_magres/schema_packages/package.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages/package.py at fix...",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/actions",
+                "title": "Workflow runs \u00b7 CCP-NC/nomad-parser-magres",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/e4ddde685f38cc41dc7b823cf1bf7da09ff484e6/src/nomad_parser_magres/schema_packages",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages at e4ddde685f38cc...",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/e4ddde685f38cc41dc7b823cf1bf7da09ff484e6/src/nomad_parser_magres/schema_packages/package.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages/package.py at e4d...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/fix_entrypoint/src/nomad_parser_magres/parsers/parser.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/parsers/parser.py at fix_entrypoi...",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

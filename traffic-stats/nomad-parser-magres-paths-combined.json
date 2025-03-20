@@ -7637,19 +7637,19 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint",
                 "title": "CCP-NC/nomad-parser-magres at fix_entrypoint",
-                "count": 12,
+                "count": 16,
                 "uniques": 1
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres/schema_packages",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages at fix_entrypoint...",
-                "count": 7,
+                "count": 10,
                 "uniques": 1
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres",
                 "title": "nomad-parser-magres/src/nomad_parser_magres at fix_entrypoint \u00b7 CCP-NC/nomad-...",
-                "count": 6,
+                "count": 10,
                 "uniques": 1
             },
             {
@@ -7661,7 +7661,7 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/blob/fix_entrypoint/src/nomad_parser_magres/schema_packages/package.py",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages/package.py at fix...",
-                "count": 4,
+                "count": 6,
                 "uniques": 1
             },
             {
@@ -7685,13 +7685,19 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/blob/fix_entrypoint/src/nomad_parser_magres/parsers/parser.py",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/parsers/parser.py at fix_entrypoi...",
-                "count": 2,
+                "count": 4,
                 "uniques": 1
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/e4ddde685f38cc41dc7b823cf1bf7da09ff484e6/src/nomad_parser_magres",
                 "title": "nomad-parser-magres/src/nomad_parser_magres at e4ddde685f38cc41dc7b823cf1bf7d...",
                 "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres/parsers",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/parsers at fix_entrypoint \u00b7 CCP-N...",
+                "count": 4,
                 "uniques": 1
             }
         ]

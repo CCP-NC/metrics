@@ -1779,7 +1779,7 @@
         "data": [
             {
                 "referrer": "github.com",
-                "count": 13,
+                "count": 15,
                 "uniques": 2
             },
             {
@@ -1791,6 +1791,11 @@
                 "referrer": "Google",
                 "count": 2,
                 "uniques": 2
+            },
+            {
+                "referrer": "DuckDuckGo",
+                "count": 1,
+                "uniques": 1
             }
         ]
     }

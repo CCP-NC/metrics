@@ -7773,19 +7773,19 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint",
                 "title": "CCP-NC/nomad-parser-magres at fix_entrypoint",
-                "count": 10,
+                "count": 12,
                 "uniques": 1
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres",
                 "title": "nomad-parser-magres/src/nomad_parser_magres at fix_entrypoint \u00b7 CCP-NC/nomad-...",
-                "count": 6,
+                "count": 9,
                 "uniques": 1
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres/schema_packages",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages at fix_entrypoint...",
-                "count": 5,
+                "count": 6,
                 "uniques": 1
             },
             {
@@ -7797,13 +7797,13 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/blob/fix_entrypoint/src/nomad_parser_magres/parsers/parser.py",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/parsers/parser.py at fix_entrypoi...",
-                "count": 3,
+                "count": 6,
                 "uniques": 1
             },
             {
                 "path": "/CCP-NC/nomad-parser-magres/blob/fix_entrypoint/src/nomad_parser_magres/schema_packages/package.py",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages/package.py at fix...",
-                "count": 3,
+                "count": 5,
                 "uniques": 1
             },
             {
@@ -7815,7 +7815,7 @@
             {
                 "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint/src/nomad_parser_magres/parsers",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/parsers at fix_entrypoint \u00b7 CCP-N...",
-                "count": 3,
+                "count": 5,
                 "uniques": 1
             },
             {
@@ -7828,6 +7828,12 @@
                 "path": "/CCP-NC/nomad-parser-magres/blob/e4ddde685f38cc41dc7b823cf1bf7da09ff484e6/src/nomad_parser_magres/schema_packages/package.py",
                 "title": "nomad-parser-magres/src/nomad_parser_magres/schema_packages/package.py at e4d...",
                 "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/fix_entrypoint/tests/data/ethanol_nmr.magres",
+                "title": "nomad-parser-magres/tests/data/ethanol_nmr.magres at fix_entrypoint \u00b7 CCP-NC/...",
+                "count": 3,
                 "uniques": 1
             }
         ]

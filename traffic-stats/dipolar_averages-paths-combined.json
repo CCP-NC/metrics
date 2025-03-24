@@ -1157,5 +1157,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-03-24",
+        "data": [
+            {
+                "path": "/CCP-NC/dipolar_averages",
+                "title": "CCP-NC/dipolar_averages: Python script for calculating dipolar 2nd moments un...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/blob/main/Experimental/M2_integrator.py",
+                "title": "dipolar_averages/Experimental/M2_integrator.py at main \u00b7 CCP-NC/dipolar_avera...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main/Examples",
+                "title": "dipolar_averages/Examples at main \u00b7 CCP-NC/dipolar_averages",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main/Experimental",
+                "title": "dipolar_averages/Experimental at main \u00b7 CCP-NC/dipolar_averages",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

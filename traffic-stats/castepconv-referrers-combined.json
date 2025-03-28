@@ -2458,5 +2458,25 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-03-28",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "referrer": "github.com",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "researchgate.net",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

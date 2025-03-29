@@ -7557,7 +7557,7 @@
             {
                 "path": "/CCP-NC/ccpnc-database",
                 "title": "CCP-NC/ccpnc-database",
-                "count": 8,
+                "count": 10,
                 "uniques": 1
             },
             {
@@ -7613,6 +7613,12 @@
                 "title": "Comparing master...add_website_license \u00b7 CCP-NC/ccpnc-database",
                 "count": 1,
                 "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/issues/6",
+                "title": "Issue \u00b7 GitHub",
+                "count": 2,
+                "uniques": 2
             }
         ]
     }

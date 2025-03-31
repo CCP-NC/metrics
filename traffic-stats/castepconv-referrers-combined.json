@@ -2524,8 +2524,8 @@
         "data": [
             {
                 "referrer": "Google",
-                "count": 3,
-                "uniques": 2
+                "count": 4,
+                "uniques": 3
             },
             {
                 "referrer": "github.com",
@@ -2535,6 +2535,11 @@
             {
                 "referrer": "researchgate.net",
                 "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "castep-docs.github.io",
+                "count": 2,
                 "uniques": 1
             }
         ]

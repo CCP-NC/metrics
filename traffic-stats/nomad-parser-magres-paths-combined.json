@@ -8692,5 +8692,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-04-07",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-parser-magres/tree/fix_entrypoint",
+                "title": "CCP-NC/nomad-parser-magres at fix_entrypoint",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres/blob/e4ddde685f38cc41dc7b823cf1bf7da09ff484e6/src/nomad_parser_magres/parsers/parser.py",
+                "title": "nomad-parser-magres/src/nomad_parser_magres/parsers/parser.py at e4ddde685f38...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-magres",
+                "title": "CCP-NC/nomad-parser-magres: NOMAD parser for the magres file format.",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

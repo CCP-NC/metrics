@@ -3323,5 +3323,30 @@
                 "uniques": 2
             }
         ]
+    },
+    {
+        "timestamp": "2025-05-01",
+        "data": [
+            {
+                "referrer": "github.com",
+                "count": 20,
+                "uniques": 2
+            },
+            {
+                "referrer": "castep-docs.github.io",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "referrer": "Google",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "referrer": "Bing",
+                "count": 2,
+                "uniques": 2
+            }
+        ]
     }
 ]

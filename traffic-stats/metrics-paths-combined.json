@@ -2063,5 +2063,22 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-05-05",
+        "data": [
+            {
+                "path": "/CCP-NC/metrics/actions/runs/14707318060",
+                "title": "CCP-NC Organisation Traffic Collection \u00b7 CCP-NC/metrics@703b76e",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/actions/runs/14707318060/job/41272135064",
+                "title": "CCP-NC Organisation Traffic Collection \u00b7 CCP-NC/metrics@703b76e",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

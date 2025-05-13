@@ -3703,5 +3703,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-05-13",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "referrer": "DuckDuckGo",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "referrer": "researchgate.net",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "referrer": "castep-docs.github.io",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "referrer": "cn.bing.com",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "referrer": "chatgpt.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -2593,5 +2593,25 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-06-19",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 8,
+                "uniques": 5
+            },
+            {
+                "referrer": "Bing",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "referrer": "cn.bing.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

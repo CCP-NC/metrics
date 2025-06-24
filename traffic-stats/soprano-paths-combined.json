@@ -11554,8 +11554,8 @@
             {
                 "path": "/CCP-NC/soprano",
                 "title": "CCP-NC/soprano: Soprano - a Python library to crack crystals!",
-                "count": 10,
-                "uniques": 3
+                "count": 13,
+                "uniques": 5
             },
             {
                 "path": "/CCP-NC/soprano/issues/37",
@@ -11608,6 +11608,12 @@
             {
                 "path": "/CCP-NC/soprano/releases",
                 "title": "Releases \u00b7 CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/db30c21e809ffd84e7fd3844248090c79ecc6c20",
+                "title": "Renamed license.txt to avoid conflicts with LICENSE.txt \u00b7 CCP-NC/soprano@db30...",
                 "count": 1,
                 "uniques": 1
             }

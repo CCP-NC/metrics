@@ -5904,5 +5904,22 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-06-25",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview",
+                "title": "GitHub - CCP-NC/magresview: MagresView, a JavaScript, JMol-based viewer for c...",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview/commit/8e5f0b1e49c47f3f89d76b62cc9723b012f1758f",
+                "title": "Fixed bug with total shift being erroneously displayed as zero \u00b7 CCP-NC/magre...",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

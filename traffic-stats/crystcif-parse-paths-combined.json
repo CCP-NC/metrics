@@ -1413,6 +1413,37 @@
     },
     {
         "timestamp": "2025-06-26",
-        "data": []
+        "data": [
+            {
+                "path": "/CCP-NC/crystcif-parse/tree/master/examples",
+                "title": "crystcif-parse/examples at master \u00b7 CCP-NC/crystcif-parse",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/blob/master/test/atoms.js",
+                "title": "crystcif-parse/test/atoms.js at master \u00b7 CCP-NC/crystcif-parse",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/blob/master/test/cell.js",
+                "title": "crystcif-parse/test/cell.js at master \u00b7 CCP-NC/crystcif-parse",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/tree/master/test",
+                "title": "crystcif-parse/test at master \u00b7 CCP-NC/crystcif-parse",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse",
+                "title": "CCP-NC/crystcif-parse: A JavaScript parser for Crystallography CIF files",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

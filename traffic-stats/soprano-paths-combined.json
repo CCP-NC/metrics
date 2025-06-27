@@ -11755,8 +11755,8 @@
             {
                 "path": "/CCP-NC/soprano",
                 "title": "CCP-NC/soprano: Soprano - a Python library to crack crystals!",
-                "count": 11,
-                "uniques": 6
+                "count": 14,
+                "uniques": 7
             },
             {
                 "path": "/CCP-NC/soprano/issues/37",
@@ -11810,6 +11810,18 @@
                 "path": "/CCP-NC/soprano/pull/38",
                 "title": "Cli nmr fix by jkshenton \u00b7 Pull Request #38 \u00b7 CCP-NC/soprano",
                 "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano",
+                "title": "soprano/soprano at master \u00b7 CCP-NC/soprano",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/532ad8c8389824bfee641079f8b4e85ae803fe69",
+                "title": "Skip files with no data in nmr_extract_multi and log a warning for em\u2026 \u00b7 CCP-...",
+                "count": 3,
                 "uniques": 1
             }
         ]

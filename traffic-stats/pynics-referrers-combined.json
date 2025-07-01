@@ -1137,6 +1137,12 @@
     },
     {
         "timestamp": "2025-07-01",
-        "data": []
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 2,
+                "uniques": 2
+            }
+        ]
     }
 ]

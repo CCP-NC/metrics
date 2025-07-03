@@ -12144,5 +12144,64 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-03",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "GitHub - CCP-NC/soprano: Soprano - a Python library to crack crystals!",
+                "count": 9,
+                "uniques": 6
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano",
+                "title": "soprano/soprano at master \u00b7 CCP-NC/soprano",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/532ad8c8389824bfee641079f8b4e85ae803fe69",
+                "title": "Skip files with no data in nmr_extract_multi and log a warning for em\u2026 \u00b7 CCP-...",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/db30c21e809ffd84e7fd3844248090c79ecc6c20",
+                "title": "Renamed license.txt to avoid conflicts with LICENSE.txt \u00b7 CCP-NC/soprano@db30...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/pull/38",
+                "title": "Cli nmr fix by jkshenton \u00b7 Pull Request #38 \u00b7 CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/532ad8c8389824bfee641079f8b4e85ae803fe69",
+                "title": "CCP-NC/soprano at 532ad8c8389824bfee641079f8b4e85ae803fe69",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master",
+                "title": "CCP-NC/soprano: Soprano - a Python library to crack crystals!",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/nmrdata-rework",
+                "title": "CCP-NC/soprano at nmrdata-rework",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/quadrupolar-rework",
+                "title": "CCP-NC/soprano at quadrupolar-rework",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

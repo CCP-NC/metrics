@@ -4783,5 +4783,30 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-07",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 5,
+                "uniques": 3
+            },
+            {
+                "referrer": "Bing",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "referrer": "chatgpt.com",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "castep-docs.github.io",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

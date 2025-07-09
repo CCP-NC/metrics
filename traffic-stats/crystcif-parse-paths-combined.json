@@ -1913,5 +1913,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-09",
+        "data": [
+            {
+                "path": "/CCP-NC/crystcif-parse",
+                "title": "CCP-NC/crystcif-parse: A JavaScript parser for Crystallography CIF files",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/blob/master/lib/cryst.js",
+                "title": "crystcif-parse/lib/cryst.js at master \u00b7 CCP-NC/crystcif-parse",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/tree/master/lib",
+                "title": "crystcif-parse/lib at master \u00b7 CCP-NC/crystcif-parse",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

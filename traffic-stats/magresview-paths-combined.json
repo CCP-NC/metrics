@@ -6529,5 +6529,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-18",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview/pulls",
+                "title": "Pull requests \u00b7 CCP-NC/magresview \u00b7 GitHub",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview/issues",
+                "title": "Issues \u00b7 CCP-NC/magresview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/pulse/daily",
+                "title": "Pulse \u00b7 CCP-NC/magresview \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

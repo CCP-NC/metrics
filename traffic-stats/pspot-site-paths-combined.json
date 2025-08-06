@@ -4405,5 +4405,34 @@
     {
         "timestamp": "2025-07-21",
         "data": []
+    },
+    {
+        "timestamp": "2025-08-06",
+        "data": [
+            {
+                "path": "/CCP-NC/pspot-site",
+                "title": "CCP-NC/pspot-site: A web page to host CASTEP pseudopotential strings and data...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pspot-site/blob/master/generate/castep_keywords.json",
+                "title": "pspot-site/generate/castep_keywords.json at master \u00b7 CCP-NC/pspot-site \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pspot-site/tree/master/data",
+                "title": "pspot-site/data at master \u00b7 CCP-NC/pspot-site",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pspot-site/tree/master/data/delta_test",
+                "title": "pspot-site/data/delta_test at master \u00b7 CCP-NC/pspot-site",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

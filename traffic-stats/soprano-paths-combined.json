@@ -13444,5 +13444,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-08-07",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "GitHub - CCP-NC/soprano: Soprano - a Python library to crack crystals!",
+                "count": 8,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/pull/40",
+                "title": "Added function to use ms_tag and efg_tag by jkshenton \u00b7 Pull Request #40 \u00b7 CC...",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/pulls",
+                "title": "Pull requests \u00b7 CCP-NC/soprano",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/scripts/molecules.py",
+                "title": "soprano/soprano/scripts/molecules.py at master \u00b7 CCP-NC/soprano \u00b7 GitHub",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/properties/linkage/linkage.py",
+                "title": "soprano/soprano/properties/linkage/linkage.py at master \u00b7 CCP-NC/soprano \u00b7 Gi...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/85c3341a7b786fed26cb28b52f947530096cd48e",
+                "title": "refactor: streamline shielding and EFG tests with helper methods and \u2026 \u00b7 CCP-...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/ebacf5b813d1222815a2ad9cb163ef0dc94cf1a5",
+                "title": "Merge pull request #40 from carlosbornes/nmr_tags \u00b7 CCP-NC/soprano@ebacf5b",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/compare/master...carlosbornes:soprano:nmr_tags",
+                "title": "Comparing CCP-NC:master...carlosbornes:nmr_tags \u00b7 CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/issues/37",
+                "title": "Issue",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/releases/tag/v0.10.0",
+                "title": "Release v0.10.0 \u00b7 CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

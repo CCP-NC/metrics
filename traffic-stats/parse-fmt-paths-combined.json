@@ -1495,5 +1495,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-08-21",
+        "data": [
+            {
+                "path": "/CCP-NC/parse-fmt",
+                "title": "CCP-NC/parse-fmt: A Python parser for CASTEP fmt files (densities, potentials...",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/parse-fmt/blob/master/setup.py",
+                "title": "parse-fmt/setup.py at master \u00b7 CCP-NC/parse-fmt",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/parse-fmt/tree/master/parsefmt",
+                "title": "parse-fmt/parsefmt at master \u00b7 CCP-NC/parse-fmt",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/parse-fmt/tree/master",
+                "title": "GitHub - CCP-NC/parse-fmt: A Python parser for CASTEP fmt files (densities, p...",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

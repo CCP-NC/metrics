@@ -5476,7 +5476,7 @@ timestamp,repository,clones_count,clones_uniques,views_count,views_uniques,top_r
 2025-09-03,soprano,18,10,20,3,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-03,staged-recipes,1,1,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-04,.github,3,3,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2025-09-04,castepconv,7,7,21,6,none,0,0,0,0,0,none,0,0,0,0,0,0,0
+2025-09-04,castepconv,6,6,7,5,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-04,ccpnc-database,7,7,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-04,ccpnc-nomad-oasis,3,3,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-04,crystcif-parse,3,3,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
@@ -5485,8 +5485,8 @@ timestamp,repository,clones_count,clones_uniques,views_count,views_uniques,top_r
 2025-09-04,magresview,4,4,6,2,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-04,magresview-2,1,1,1,1,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-04,make-supercell,2,2,1,1,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2025-09-04,metrics,73,37,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2025-09-04,nomad-oasis-schema-parser-plugin,14,9,10,1,none,0,0,0,0,0,none,0,0,0,0,0,0,0
+2025-09-04,metrics,76,40,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
+2025-09-04,nomad-oasis-schema-parser-plugin,13,8,10,1,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-04,nomad-parser-magres,2,2,1,1,none,0,0,0,0,0,/CCP-NC/nomad-parser-magres/pulls,1,1,1,1,1,0,0
 2025-09-04,orgdisord,7,7,3,2,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-04,parse-fmt,4,4,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0

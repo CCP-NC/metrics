@@ -5978,13 +5978,13 @@ timestamp,repository,clones_count,clones_uniques,views_count,views_uniques,top_r
 2025-09-28,ccpnc-database,15,11,4,4,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,ccpnc-nomad-oasis,2,2,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,ccpnc-oasis-app,16,11,27,3,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2025-09-28,crystcif-parse,4,4,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2025-09-28,crystvis-js,5,5,2,2,none,0,0,0,0,0,none,0,0,0,0,0,0,0
+2025-09-28,crystcif-parse,4,4,2,1,none,0,0,0,0,0,none,0,0,0,0,0,0,0
+2025-09-28,crystvis-js,6,6,2,2,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,dipolar_averages,1,1,7,3,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,magresview,2,2,1,1,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2025-09-28,magresview-2,4,4,7,6,none,0,0,0,0,0,none,0,0,0,0,0,0,0
+2025-09-28,magresview-2,4,4,5,4,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,make-supercell,2,2,12,8,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2025-09-28,metrics,93,44,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
+2025-09-28,metrics,90,42,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,nomad-oasis-schema-parser-plugin,3,2,9,2,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,nomad-parser-magres,7,7,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,orgdisord,4,4,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
@@ -5992,5 +5992,5 @@ timestamp,repository,clones_count,clones_uniques,views_count,views_uniques,top_r
 2025-09-28,pspot-site,5,5,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,pynics,3,3,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,simpson-docker,3,3,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0
-2025-09-28,soprano,112,25,13,8,none,0,0,0,0,0,none,0,0,0,0,0,0,0
+2025-09-28,soprano,113,25,13,8,none,0,0,0,0,0,none,0,0,0,0,0,0,0
 2025-09-28,staged-recipes,2,2,0,0,none,0,0,0,0,0,none,0,0,0,0,0,0,0

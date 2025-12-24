@@ -2059,5 +2059,16 @@
     {
         "timestamp": "2025-12-23",
         "data": []
+    },
+    {
+        "timestamp": "2025-12-24",
+        "data": [
+            {
+                "path": "/CCP-NC/parse-fmt",
+                "title": "CCP-NC/parse-fmt: A Python parser for CASTEP fmt files (densities, potentials...",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -8678,5 +8678,40 @@
     {
         "timestamp": "2025-12-23",
         "data": []
+    },
+    {
+        "timestamp": "2025-12-24",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "GitHub - CCP-NC/magresview-2: MagresView 2.0 - NMR crystallography visualisat...",
+                "count": 7,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/main/README.md",
+                "title": "magresview-2/README.md at main \u00b7 CCP-NC/magresview-2 \u00b7 GitHub",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blame/main/README.md",
+                "title": "Blaming magresview-2/README.md at main \u00b7 CCP-NC/magresview-2 \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/issues/27",
+                "title": "Issue \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/tree/main/docs",
+                "title": "magresview-2/docs at main \u00b7 CCP-NC/magresview-2 \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

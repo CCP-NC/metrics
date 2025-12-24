@@ -14542,5 +14542,70 @@
     {
         "timestamp": "2025-12-23",
         "data": []
+    },
+    {
+        "timestamp": "2025-12-24",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "GitHub - CCP-NC/soprano: Soprano - a Python library to crack crystals!",
+                "count": 12,
+                "uniques": 7
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano",
+                "title": "soprano/soprano at master \u00b7 CCP-NC/soprano \u00b7 GitHub",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/calculate/nmr/nmr.py",
+                "title": "soprano/soprano/calculate/nmr/nmr.py at master \u00b7 CCP-NC/soprano \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/properties/nmr/ms.py",
+                "title": "soprano/soprano/properties/nmr/ms.py at master \u00b7 CCP-NC/soprano \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/fork",
+                "title": "Fork CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/graphs/contributors",
+                "title": "Contributors to CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/releases",
+                "title": "Releases \u00b7 CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/releases/tag/v0.10.2",
+                "title": "Release v0.10.2 Bugfix for numpy compatibility \u00b7 CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate",
+                "title": "soprano/soprano/calculate at master \u00b7 CCP-NC/soprano \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate/nmr",
+                "title": "soprano/soprano/calculate/nmr at master \u00b7 CCP-NC/soprano \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

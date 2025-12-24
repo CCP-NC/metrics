@@ -4411,5 +4411,20 @@
     {
         "timestamp": "2025-12-23",
         "data": []
+    },
+    {
+        "timestamp": "2025-12-24",
+        "data": [
+            {
+                "referrer": "github.com",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "referrer": "Google",
+                "count": 2,
+                "uniques": 2
+            }
+        ]
     }
 ]

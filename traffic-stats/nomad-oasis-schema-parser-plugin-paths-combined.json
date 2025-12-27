@@ -665,5 +665,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-27",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "GitHub - CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser +...",
+                "count": 8,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/specialsed_schema_and_parser",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin at specialsed_schema_and_parser",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/specialsed_schema_and_parser",
+                "title": "Commits \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/20165180291/job/57886752711",
+                "title": "parse function refactor \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin@d325d4d",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/e44292e8c8a9b0311ee2acd8475ab1477a55b2fc/src/nomad_oasis_schema_parser_plugin/parsers/parser.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/parsers...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/e44292e8c8a9b0311ee2acd8475ab1477a55b2fc",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin at e44292e8c8a9b0311ee2acd8475ab1477a...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/20165180291/job/57886752714",
+                "title": "parse function refactor \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin@d325d4d",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/20266164917/job/58189860324",
+                "title": "Added tests for schema and parser \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin@9...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/20266403751/job/58190649138",
+                "title": "missing \"python-logstash\" dependency fix \u00b7 CCP-NC/nomad-oasis-schema-parser-p...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/e44292e8c8a9b0311ee2acd8475ab1477a55b2fc/src/nomad_oasis_schema_parser_plugin/normalizers/normalizer.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/normali...",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

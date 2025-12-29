@@ -14855,5 +14855,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-29",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "GitHub - CCP-NC/soprano: Soprano - a Python library to crack crystals!",
+                "count": 11,
+                "uniques": 6
+            },
+            {
+                "path": "/CCP-NC/soprano/fork",
+                "title": "Fork CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/graphs/contributors",
+                "title": "Contributors to CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/releases",
+                "title": "Releases \u00b7 CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/releases/tag/v0.10.2",
+                "title": "Release v0.10.2 Bugfix for numpy compatibility \u00b7 CCP-NC/soprano",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

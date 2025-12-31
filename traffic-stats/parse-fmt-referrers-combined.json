@@ -1631,6 +1631,12 @@
     },
     {
         "timestamp": "2025-12-31",
-        "data": []
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

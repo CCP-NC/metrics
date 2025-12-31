@@ -913,5 +913,52 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-31",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "GitHub - CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser +...",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/specialsed_schema_and_parser",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin at specialsed_schema_and_parser",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/20266164917/job/58189860324",
+                "title": "Added tests for schema and parser \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin@9...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/20266403751/job/58190649138",
+                "title": "missing \"python-logstash\" dependency fix \u00b7 CCP-NC/nomad-oasis-schema-parser-p...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/91c12b545c4a5728a0d01fffe15075ff9e1237a9",
+                "title": "Added tests for schema and parser \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin@9...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/d049edc134e1105d152548986150123c20b3ee2d",
+                "title": "missing \"python-logstash\" dependency fix \u00b7 CCP-NC/nomad-oasis-schema-parser-p...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/specialsed_schema_and_parser",
+                "title": "Commits \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

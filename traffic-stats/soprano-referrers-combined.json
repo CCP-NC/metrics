@@ -4516,5 +4516,20 @@
                 "uniques": 2
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-31",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "referrer": "github.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

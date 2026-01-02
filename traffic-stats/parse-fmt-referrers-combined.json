@@ -1651,6 +1651,12 @@
     },
     {
         "timestamp": "2026-01-02",
-        "data": []
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

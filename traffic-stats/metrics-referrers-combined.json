@@ -1744,5 +1744,15 @@
     {
         "timestamp": "2026-01-01",
         "data": []
+    },
+    {
+        "timestamp": "2026-01-02",
+        "data": [
+            {
+                "referrer": "github.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

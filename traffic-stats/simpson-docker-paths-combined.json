@@ -1782,5 +1782,16 @@
     {
         "timestamp": "2026-01-08",
         "data": []
+    },
+    {
+        "timestamp": "2026-01-09",
+        "data": [
+            {
+                "path": "/CCP-NC/simpson-docker",
+                "title": "CCP-NC/simpson-docker: Dockerfile for the Simpson code",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

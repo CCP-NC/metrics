@@ -1271,6 +1271,19 @@
     },
     {
         "timestamp": "2026-01-10",
-        "data": []
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser + custom s...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/20266403751/job/58190649138",
+                "title": "missing \"python-logstash\" dependency fix \u00b7 CCP-NC/nomad-oasis-schema-parser-p...",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

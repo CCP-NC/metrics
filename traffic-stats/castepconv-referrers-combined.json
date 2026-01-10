@@ -6243,5 +6243,25 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-10",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 28,
+                "uniques": 4
+            },
+            {
+                "referrer": "Bing",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "referrer": "github.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

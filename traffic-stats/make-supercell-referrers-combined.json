@@ -4021,5 +4021,25 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-23",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "referrer": "Bing",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "Yahoo",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

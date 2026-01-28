@@ -4121,5 +4121,25 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-28",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "referrer": "Bing",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "Yahoo",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

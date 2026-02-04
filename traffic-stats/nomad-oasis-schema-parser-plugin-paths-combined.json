@@ -2118,5 +2118,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-04",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/specialsed_schema_and_parser",
+                "title": "Commits \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin",
+                "count": 6,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser + custom s...",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/specialsed_schema_and_parser",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin at specialsed_schema_and_parser",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/4e463d5dbe5ada77c2453d0329dd580d22ec6afd",
+                "title": "linting fixes \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin@4e463d5",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/compare/specialsed_schema_and_parser",
+                "title": "Comparing main...specialsed_schema_and_parser \u00b7 CCP-NC/nomad-oasis-schema-par...",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/21364558697",
+                "title": "extract electric field gradient element resolved values \u00b7 CCP-NC/nomad-oasis-...",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/specialsed_schema_and_parser/src/nomad_oasis_schema_parser_plugin/schema_packages/schema_package.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/4e463d5dbe5ada77c2453d0329dd580d22ec6afd/pyproject.toml",
+                "title": "nomad-oasis-schema-parser-plugin/pyproject.toml at 4e463d5dbe5ada77c2453d0329...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/src/nomad_oasis_schema_parser_plugin/schema_packages/schema_package.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/specialsed_schema_and_parser/pyproject.toml",
+                "title": "nomad-oasis-schema-parser-plugin/pyproject.toml at specialsed_schema_and_pars...",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

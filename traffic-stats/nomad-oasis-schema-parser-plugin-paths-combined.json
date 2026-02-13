@@ -2739,5 +2739,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-13",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser + custom s...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/specialsed_schema_and_parser/src/nomad_oasis_schema_parser_plugin/schema_packages/schema_package.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/specialsed_schema_and_parser",
+                "title": "Commits \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/src/nomad_oasis_schema_parser_plugin/schema_packages/schema_package.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/specialsed_schema_and_parser/src/nomad_oasis_schema_parser_plugin/parsers/parser.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/specialsed_schema_and_parser/src/nomad_oasis_schema_parser_plugin/schema_packages/metadata_voila.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/0d261888e78bb8cb52439d070df8c8158a24c0a5",
+                "title": "nmr schema, magres parser commit id updates \u00b7 CCP-NC/nomad-oasis-schema-parse...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/main/src/nomad_oasis_schema_parser_plugin",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin at main...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/main/src/nomad_oasis_schema_parser_plugin/schema_packages",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser + custom s...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/specialsed_schema_and_parser/src/nomad_oasis_schema_parser_plugin/schema_packages",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

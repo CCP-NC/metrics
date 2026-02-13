@@ -2746,7 +2746,7 @@
             {
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
                 "title": "CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser + custom s...",
-                "count": 2,
+                "count": 4,
                 "uniques": 1
             },
             {
@@ -2758,7 +2758,7 @@
             {
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/specialsed_schema_and_parser",
                 "title": "Commits \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin",
-                "count": 2,
+                "count": 4,
                 "uniques": 1
             },
             {
@@ -2800,6 +2800,30 @@
             {
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/specialsed_schema_and_parser/src/nomad_oasis_schema_parser_plugin/schema_packages",
                 "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/024d03c4a3c5dfeb1f5243a323521ba848b728c0/src/nomad_oasis_schema_parser_plugin/schema_packages",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin at 024d...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/specialsed_schema_and_parser",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin at specialsed_schema_and_parser",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/024d03c4a3c5dfeb1f5243a323521ba848b728c0",
+                "title": "EFG Hartree atomic units update \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin@024...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/024d03c4a3c5dfeb1f5243a323521ba848b728c0/src/nomad_oasis_schema_parser_plugin",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin at 024d...",
                 "count": 1,
                 "uniques": 1
             }

@@ -5166,5 +5166,25 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-16",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 6,
+                "uniques": 2
+            },
+            {
+                "referrer": "DuckDuckGo",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "github.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

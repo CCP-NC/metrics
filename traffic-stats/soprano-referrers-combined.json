@@ -5231,5 +5231,30 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-19",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 4,
+                "uniques": 3
+            },
+            {
+                "referrer": "DuckDuckGo",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "github.com",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "search.brave.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

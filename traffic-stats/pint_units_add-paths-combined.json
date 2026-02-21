@@ -163,5 +163,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-21",
+        "data": [
+            {
+                "path": "/CCP-NC/pint_units_add",
+                "title": "CCP-NC/pint_units_add: Operate and manipulate physical quantities in Python",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pint_units_add/commits/master",
+                "title": "Commits \u00b7 CCP-NC/pint_units_add",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/hgrecco/pint/compare/master...CCP-NC:pint_units_add:master",
+                "title": "Comparing hgrecco:master...CCP-NC:master \u00b7 hgrecco/pint",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

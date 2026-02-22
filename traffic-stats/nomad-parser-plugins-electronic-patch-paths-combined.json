@@ -52,7 +52,7 @@
             {
                 "path": "/CCP-NC/nomad-parser-plugins-electronic-patch",
                 "title": "CCP-NC/nomad-parser-plugins-electronic-patch: This patched version of NOMAD e...",
-                "count": 7,
+                "count": 8,
                 "uniques": 1
             },
             {
@@ -88,6 +88,18 @@
             {
                 "path": "/CCP-NC/nomad-parser-plugins-electronic-patch/actions/runs/22223079882/job/64282981162",
                 "title": "Add missing test data files for CI \u00b7 CCP-NC/nomad-parser-plugins-electronic-p...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-plugins-electronic-patch/commit/859d693735d5fb159ec6274ed410f18ea4859c7c",
+                "title": "Add missing test data files for CI \u00b7 CCP-NC/nomad-parser-plugins-electronic-p...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-parser-plugins-electronic-patch/commits/main",
+                "title": "Commits \u00b7 CCP-NC/nomad-parser-plugins-electronic-patch",
                 "count": 1,
                 "uniques": 1
             }

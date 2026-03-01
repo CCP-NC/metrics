@@ -2591,5 +2591,20 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-01",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 12,
+                "uniques": 2
+            },
+            {
+                "referrer": "github.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

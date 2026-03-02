@@ -4475,5 +4475,20 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-02",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 12,
+                "uniques": 5
+            },
+            {
+                "referrer": "chatgpt.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

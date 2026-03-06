@@ -4541,11 +4541,16 @@
         "data": [
             {
                 "referrer": "Google",
-                "count": 13,
-                "uniques": 6
+                "count": 15,
+                "uniques": 7
             },
             {
                 "referrer": "chatgpt.com",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "Bing",
                 "count": 1,
                 "uniques": 1
             }

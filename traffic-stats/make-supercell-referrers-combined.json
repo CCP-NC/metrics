@@ -4555,5 +4555,25 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-07",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 15,
+                "uniques": 7
+            },
+            {
+                "referrer": "Bing",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "chatgpt.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

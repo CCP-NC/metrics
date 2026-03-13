@@ -4210,5 +4210,58 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-13",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/22254457966/job/64383475003",
+                "title": "dependency update for patched nomad-lab \u00b7 CCP-NC/nomad-oasis-schema-parser-pl...",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/specialsed_schema_and_parser",
+                "title": "Commits \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser + custom s...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/024d03c4a3c5dfeb1f5243a323521ba848b728c0/src/nomad_oasis_schema_parser_plugin/schema_packages",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/9f5b1e87e82b5e6b83497c9968407b027883451f/pyproject.toml",
+                "title": "Update python version \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin@9f5b1e8",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/9f5b1e87e82b5e6b83497c9968407b027883451f",
+                "title": "Commits \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/9f5b1e87e82b5e6b83497c9968407b027883451f",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin at 9f5b1e87e82b5e6b83497c9968407b0278...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/specialsed_schema_and_parser",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin at specialsed_schema_and_parser",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

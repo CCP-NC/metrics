@@ -3049,5 +3049,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-13",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commit/afa087841740930af46ed97f5ce1c49de380b7f7",
+                "title": "nomad-lab dependency patch \u00b7 CCP-NC/ccpnc-oasis-app@afa0878 \u00b7 GitHub",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "CCP-NC/ccpnc-oasis-app: NOMAD Oasis app for customising the gui elements.",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/afa087841740930af46ed97f5ce1c49de380b7f7/pyproject.toml",
+                "title": "nomad-lab dependency patch \u00b7 CCP-NC/ccpnc-oasis-app@afa0878",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/ccpnc_app_design/src/ccpnc_oasis_app/apps/__init__.py",
+                "title": "ccpnc-oasis-app/src/ccpnc_oasis_app/apps at ccpnc_app_design \u00b7 CCP-NC/ccpnc-o...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commits/ccpnc_app_design",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-oasis-app",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commits/main",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-oasis-app",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/afa087841740930af46ed97f5ce1c49de380b7f7",
+                "title": "CCP-NC/ccpnc-oasis-app at afa087841740930af46ed97f5ce1c49de380b7f7",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/ccpnc_app_design",
+                "title": "GitHub - CCP-NC/ccpnc-oasis-app at ccpnc_app_design \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/ccpnc_app_design/src/ccpnc_oasis_app",
+                "title": "GitHub - CCP-NC/ccpnc-oasis-app at ccpnc_app_design \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/ccpnc_app_design/src/ccpnc_oasis_app/apps",
+                "title": "ccpnc-oasis-app/src/ccpnc_oasis_app at ccpnc_app_design \u00b7 CCP-NC/ccpnc-oasis-...",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

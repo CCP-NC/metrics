@@ -4618,5 +4618,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-19",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser + custom s...",
+                "count": 8,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/specialsed_schema_and_parser",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin at specialsed_schema_and_parser",
+                "count": 8,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/specialsed_schema_and_parser",
+                "title": "Commits \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin",
+                "count": 6,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/22254457966/job/64383475003",
+                "title": "dependency update for patched nomad-lab \u00b7 CCP-NC/nomad-oasis-schema-parser-pl...",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/a65b9093e273ffb973039c9e6b386d48258835e6/pyproject.toml",
+                "title": "temporarily skip parser test until nomad-lab fix \u00b7 CCP-NC/nomad-oasis-schema-...",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/a65b9093e273ffb973039c9e6b386d48258835e6",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin at a65b9093e273ffb973039c9e6b386d4825...",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/a65b9093e273ffb973039c9e6b386d48258835e6/src/nomad_oasis_schema_parser_plugin/parsers/utils/utils.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/parsers...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/pyproject.toml",
+                "title": "CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser + custom s...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/a65b9093e273ffb973039c9e6b386d48258835e6",
+                "title": "temporarily skip parser test until nomad-lab fix \u00b7 CCP-NC/nomad-oasis-schema-...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/024d03c4a3c5dfeb1f5243a323521ba848b728c0/src/nomad_oasis_schema_parser_plugin/schema_packages",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

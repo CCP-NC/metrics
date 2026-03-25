@@ -5866,5 +5866,25 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-25",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 17,
+                "uniques": 2
+            },
+            {
+                "referrer": "Bing",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "referrer": "github.com",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

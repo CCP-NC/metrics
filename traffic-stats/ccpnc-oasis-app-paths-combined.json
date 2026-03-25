@@ -3859,5 +3859,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-25",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "CCP-NC/ccpnc-oasis-app: NOMAD Oasis app for customising the gui elements.",
+                "count": 11,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/main/src/ccpnc_oasis_app",
+                "title": "CCP-NC/ccpnc-oasis-app: NOMAD Oasis app for customising the gui elements.",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commit/afa087841740930af46ed97f5ce1c49de380b7f7",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-oasis-app",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commits/ccpnc_app_design",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-oasis-app",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/ccpnc_app_design",
+                "title": "CCP-NC/ccpnc-oasis-app at ccpnc_app_design",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions/runs/18086842020",
+                "title": "devcontainers in /. - Update #1110766465 \u00b7 CCP-NC/ccpnc-oasis-app@c32f421 \u00b7 G...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/afa087841740930af46ed97f5ce1c49de380b7f7/pyproject.toml",
+                "title": "nomad-lab dependency patch \u00b7 CCP-NC/ccpnc-oasis-app@afa0878",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/ccpnc_app_design/src/ccpnc_oasis_app/apps/__init__.py",
+                "title": "ccpnc-oasis-app/src/ccpnc_oasis_app/apps/__init__.py at ccpnc_app_design \u00b7 CC...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/main/src/ccpnc_oasis_app/__init__.py",
+                "title": "ccpnc-oasis-app/src/ccpnc_oasis_app at main \u00b7 CCP-NC/ccpnc-oasis-app",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/main/src/ccpnc_oasis_app/apps/__init__.py",
+                "title": "ccpnc-oasis-app/src/ccpnc_oasis_app/apps at main \u00b7 CCP-NC/ccpnc-oasis-app",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

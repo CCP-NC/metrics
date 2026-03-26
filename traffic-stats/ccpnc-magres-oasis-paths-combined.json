@@ -303,7 +303,7 @@
             {
                 "path": "/CCP-NC/ccpnc-magres-oasis/tree/main",
                 "title": "CCP-NC/ccpnc-magres-oasis: Deployment and configuration repository for the CC...",
-                "count": 4,
+                "count": 8,
                 "uniques": 2
             },
             {
@@ -315,7 +315,7 @@
             {
                 "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/docker-compose.yaml",
                 "title": "CCP-NC/ccpnc-magres-oasis: Deployment and configuration repository for the CC...",
-                "count": 2,
+                "count": 6,
                 "uniques": 2
             },
             {
@@ -353,6 +353,12 @@
                 "title": "Repository initialization \u00b7 CCP-NC/ccpnc-magres-oasis@e1d242f",
                 "count": 1,
                 "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/Dockerfile",
+                "title": "CCP-NC/ccpnc-magres-oasis: Deployment and configuration repository for the CC...",
+                "count": 2,
+                "uniques": 2
             }
         ]
     }

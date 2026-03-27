@@ -5181,7 +5181,7 @@
             {
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/b7fbed049733774f86e25006d72a4a498371c084",
                 "title": "updated magres parser and nmr schema commits \u00b7 CCP-NC/nomad-oasis-schema-pars...",
-                "count": 4,
+                "count": 5,
                 "uniques": 1
             },
             {
@@ -5218,6 +5218,36 @@
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/main/src/nomad_oasis_schema_parser_plugin",
                 "title": "CCP-NC/nomad-oasis-schema-parser-plugin: Specialised magres parser + custom s...",
                 "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/MANIFEST.in",
+                "title": "nomad-oasis-schema-parser-plugin/MANIFEST.in at main \u00b7 CCP-NC/nomad-oasis-sch...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/src/nomad_oasis_schema_parser_plugin/parsers/parser.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/parsers...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/src/nomad_oasis_schema_parser_plugin/schema_packages/schema_package.py",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin/schema_...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/main",
+                "title": "Commits \u00b7 CCP-NC/nomad-oasis-schema-parser-plugin",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/main/src/nomad_oasis_schema_parser_plugin/parsers",
+                "title": "nomad-oasis-schema-parser-plugin/src/nomad_oasis_schema_parser_plugin at main...",
+                "count": 1,
                 "uniques": 1
             }
         ]

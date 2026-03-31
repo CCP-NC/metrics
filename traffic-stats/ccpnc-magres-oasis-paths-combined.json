@@ -627,5 +627,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-31",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "CCP-NC/ccpnc-magres-oasis: Deployment and configuration repository for the CC...",
+                "count": 17,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main",
+                "title": "CCP-NC/ccpnc-magres-oasis: Deployment and configuration repository for the CC...",
+                "count": 12,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/docker-compose.yaml",
+                "title": "CCP-NC/ccpnc-magres-oasis: Deployment and configuration repository for the CC...",
+                "count": 8,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/23340187547/job/67891712715",
+                "title": "plugin commit update \u00b7 CCP-NC/ccpnc-magres-oasis@e550ed2",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/Dockerfile",
+                "title": "CCP-NC/ccpnc-magres-oasis: Deployment and configuration repository for the CC...",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/commits/main",
+                "title": "Commits \u00b7 CCP-NC/ccpnc-magres-oasis",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main/.github",
+                "title": "CCP-NC/ccpnc-magres-oasis: Deployment and configuration repository for the CC...",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main/.github/workflows",
+                "title": "ccpnc-magres-oasis/.github at main \u00b7 CCP-NC/ccpnc-magres-oasis",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/.github/workflows/docker-publish.yml",
+                "title": "ccpnc-magres-oasis/.github/workflows at main \u00b7 CCP-NC/ccpnc-magres-oasis",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/pyproject.toml",
+                "title": "CCP-NC/ccpnc-magres-oasis: Deployment and configuration repository for the CC...",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

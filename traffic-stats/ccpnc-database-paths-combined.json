@@ -13049,5 +13049,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-01",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "CCP-NC/ccpnc-database",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/ccpncdb/orcid.py",
+                "title": "ccpnc-database/ccpncdb/orcid.py at master \u00b7 CCP-NC/ccpnc-database",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/8d8fddf6256cd3e81a5bd284ae524df9192f93ff/static/index.html",
+                "title": "ccpnc-database/static/index.html at 8d8fddf6256cd3e81a5bd284ae524df9192f93ff ...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits/47cfb9632a4968bfd06faacd97d428c2076020a7/ccpncdb/search.py",
+                "title": "History for ccpncdb/search.py - CCP-NC/ccpnc-database \u00b7 GitHub",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/tree/f0451df73cd0c7f1c17ab554f1784bf267c43d3c",
+                "title": "GitHub - CCP-NC/ccpnc-database at f0451df73cd0c7f1c17ab554f1784bf267c43d3c \u00b7 ...",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/tree/master/ccpncdb",
+                "title": "CCP-NC/ccpnc-database",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

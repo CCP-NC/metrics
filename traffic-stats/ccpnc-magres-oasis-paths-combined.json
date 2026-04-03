@@ -822,5 +822,64 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-03",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main",
+                "title": "/tree/main",
+                "count": 12,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 8,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/docker-compose.yaml",
+                "title": "/blob/main/docker-compose.yaml",
+                "count": 8,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/23340187547/job/67891712715",
+                "title": "/actions/runs/23340187547/job/67891712715",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/Dockerfile",
+                "title": "/blob/main/Dockerfile",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main/.github",
+                "title": "/tree/main/.github",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main/.github/workflows",
+                "title": "/tree/main/.github/workflows",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/.github/workflows/docker-publish.yml",
+                "title": "/blob/main/.github/workflows/docker-publish.yml",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

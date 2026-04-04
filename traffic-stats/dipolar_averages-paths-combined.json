@@ -4685,5 +4685,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-04",
+        "data": [
+            {
+                "path": "/CCP-NC/dipolar_averages/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/blob/main/setup.cfg",
+                "title": "/blob/main/setup.cfg",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main/tests",
+                "title": "/tree/main/tests",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

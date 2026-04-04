@@ -21107,5 +21107,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-04",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "Overview",
+                "count": 8,
+                "uniques": 7
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano",
+                "title": "/tree/master/soprano",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate/nmr",
+                "title": "/tree/master/soprano/calculate/nmr",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/calculate/nmr/nmr.py",
+                "title": "/blob/master/soprano/calculate/nmr/nmr.py",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate",
+                "title": "/tree/master/soprano/calculate",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/calculate/nmr/simpson.py",
+                "title": "/blob/master/soprano/calculate/nmr/simpson.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/data/nmr.py",
+                "title": "/blob/master/soprano/data/nmr.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/pull/26/commits/b7b6e702d41aa0a94352e4ffd7880a1be1c861da",
+                "title": "/pull/26/commits/b7b6e702d41aa0a94352e4ffd7880a1be1c861da",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/data",
+                "title": "/tree/master/soprano/data",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/nmr",
+                "title": "/tree/master/soprano/nmr",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

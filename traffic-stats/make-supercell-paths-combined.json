@@ -10371,5 +10371,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-04",
+        "data": [
+            {
+                "path": "/CCP-NC/make-supercell/blob/master/make-supercell.py",
+                "title": "/blob/master/make-supercell.py",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/make-supercell/blame/master/make-supercell.py",
+                "title": "/blame/master/make-supercell.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/make-supercell/blob/master/README.md",
+                "title": "/blob/master/README.md",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

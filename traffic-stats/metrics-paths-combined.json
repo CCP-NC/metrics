@@ -3773,6 +3773,13 @@
     },
     {
         "timestamp": "2026-04-06",
-        "data": []
+        "data": [
+            {
+                "path": "/CCP-NC/metrics/commits/main",
+                "title": "/commits/main",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

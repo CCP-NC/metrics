@@ -5894,5 +5894,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-08",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/23644729720/job/68873906563",
+                "title": "/actions/runs/23644729720/job/68873906563",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/b7fbed049733774f86e25006d72a4a498371c084",
+                "title": "/commit/b7fbed049733774f86e25006d72a4a498371c084",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/23304839901/job/67775869154",
+                "title": "/actions/runs/23304839901/job/67775869154",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/specialsed_schema_and_parser",
+                "title": "/commits/specialsed_schema_and_parser",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/specialsed_schema_and_parser",
+                "title": "/tree/specialsed_schema_and_parser",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

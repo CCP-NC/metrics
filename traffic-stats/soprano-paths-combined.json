@@ -21385,5 +21385,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-08",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 5
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano",
+                "title": "/tree/master/soprano",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate/nmr",
+                "title": "/tree/master/soprano/calculate/nmr",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/calculate/nmr/nmr.py",
+                "title": "/blob/master/soprano/calculate/nmr/nmr.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate",
+                "title": "/tree/master/soprano/calculate",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/actions/workflows/python-test.yml",
+                "title": "/actions/workflows/python-test.yml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/calculate/nmr/simpson.py",
+                "title": "/blob/master/soprano/calculate/nmr/simpson.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/data/nmr.py",
+                "title": "/blob/master/soprano/data/nmr.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/commits/master/CITATION.cff",
+                "title": "/commits/master/CITATION.cff",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/labels/bug",
+                "title": "/labels/bug",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -9302,5 +9302,22 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-09",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview/labels/bug",
+                "title": "/labels/bug",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

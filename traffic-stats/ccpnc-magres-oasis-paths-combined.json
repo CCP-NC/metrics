@@ -1217,5 +1217,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-10",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main",
+                "title": "/tree/main",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/docker-compose.yaml",
+                "title": "/blob/main/docker-compose.yaml",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/23340187547/job/67891712715",
+                "title": "/actions/runs/23340187547/job/67891712715",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -4951,5 +4951,64 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-12",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/issues",
+                "title": "/issues",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions",
+                "title": "/actions",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions/runs/18086842020/job/51459316998",
+                "title": "/actions/runs/18086842020/job/51459316998",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions/runs/18086842020/usage",
+                "title": "/actions/runs/18086842020/usage",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commit/c32f421e84a0a01aa0d8644b1ccfc4d4431b36a9",
+                "title": "/commit/c32f421e84a0a01aa0d8644b1ccfc4d4431b36a9",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pulse",
+                "title": "/pulse",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/refs/heads/main",
+                "title": "/tree/refs/heads/main",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

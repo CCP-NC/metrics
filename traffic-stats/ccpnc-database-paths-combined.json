@@ -14035,5 +14035,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-17",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/activity",
+                "title": "/activity",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/ccpncdb/orcid.py",
+                "title": "/blob/master/ccpncdb/orcid.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/pull/38",
+                "title": "/pull/38",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/tree/1736cd93da6046055ef63a677e719a502dbd6c96",
+                "title": "/tree/1736cd93da6046055ef63a677e719a502dbd6c96",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/tree/dbe59c3d8a97d9183d4ef13609e373669801aedb",
+                "title": "/tree/dbe59c3d8a97d9183d4ef13609e373669801aedb",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

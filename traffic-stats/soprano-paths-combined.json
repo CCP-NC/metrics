@@ -21999,5 +21999,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-18",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "Overview",
+                "count": 8,
+                "uniques": 7
+            },
+            {
+                "path": "/CCP-NC/soprano/actions/workflows/python-test.yml",
+                "title": "/actions/workflows/python-test.yml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/commits/master/CITATION.cff",
+                "title": "/commits/master/CITATION.cff",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/labels/bug",
+                "title": "/labels/bug",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/pull/22/commits",
+                "title": "/pull/22/commits",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/pull/40/commits",
+                "title": "/pull/40/commits",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

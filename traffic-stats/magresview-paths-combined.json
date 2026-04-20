@@ -9591,5 +9591,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-20",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/labels/bug",
+                "title": "/labels/bug",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/tree/master/json2sim",
+                "title": "/tree/master/json2sim",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -22407,8 +22407,8 @@
             {
                 "path": "/CCP-NC/soprano/issues",
                 "title": "/issues",
-                "count": 3,
-                "uniques": 3
+                "count": 4,
+                "uniques": 4
             },
             {
                 "path": "/CCP-NC/soprano/actions",
@@ -22456,6 +22456,18 @@
                 "path": "/CCP-NC/soprano/blob/master/.nojekyll",
                 "title": "/blob/master/.nojekyll",
                 "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/calculate/nmr/simpson.py",
+                "title": "/blob/master/soprano/calculate/nmr/simpson.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate/nmr",
+                "title": "/tree/master/soprano/calculate/nmr",
+                "count": 2,
                 "uniques": 1
             }
         ]

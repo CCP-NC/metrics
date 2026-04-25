@@ -14393,5 +14393,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-25",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 4
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/actions",
+                "title": "/actions",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/ccpncdb/orcid.py",
+                "title": "/blob/master/ccpncdb/orcid.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commit/8d8fddf6256cd3e81a5bd284ae524df9192f93ff",
+                "title": "/commit/8d8fddf6256cd3e81a5bd284ae524df9192f93ff",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits",
+                "title": "/commits",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits/8d8fddf6256cd3e81a5bd284ae524df9192f93ff/static/index.html",
+                "title": "/commits/8d8fddf6256cd3e81a5bd284ae524df9192f93ff/static/index.html",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/pulse",
+                "title": "/pulse",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/tree/1736cd93da6046055ef63a677e719a502dbd6c96",
+                "title": "/tree/1736cd93da6046055ef63a677e719a502dbd6c96",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/tree/8d8fddf6256cd3e81a5bd284ae524df9192f93ff",
+                "title": "/tree/8d8fddf6256cd3e81a5bd284ae524df9192f93ff",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

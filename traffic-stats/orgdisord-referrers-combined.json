@@ -2860,6 +2860,17 @@
     },
     {
         "timestamp": "2026-04-30",
-        "data": []
+        "data": [
+            {
+                "referrer": "github.com",
+                "count": 6,
+                "uniques": 1
+            },
+            {
+                "referrer": "ccp-nc.github.io",
+                "count": 3,
+                "uniques": 1
+            }
+        ]
     }
 ]

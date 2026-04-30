@@ -5803,5 +5803,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-30",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 10,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commits/ccpnc_app_design",
+                "title": "/commits/ccpnc_app_design",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/1",
+                "title": "/pull/1",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commits/main",
+                "title": "/commits/main",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/1/changes/37bd1528d628b9cc6b96d133bf63c8edff3c613b",
+                "title": "/pull/1/changes/37bd1528d628b9cc6b96d133bf63c8edff3c613b",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pulls",
+                "title": "/pulls",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commit/03fe5030369e56cdc8386258784838f26463f2b6",
+                "title": "/commit/03fe5030369e56cdc8386258784838f26463f2b6",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/ccpnc_app_design",
+                "title": "/tree/ccpnc_app_design",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/03fe5030369e56cdc8386258784838f26463f2b6/pyproject.toml",
+                "title": "/blob/03fe5030369e56cdc8386258784838f26463f2b6/pyproject.toml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commit/201cd375ef753750aec132078ddf2b302cb3f6da",
+                "title": "/commit/201cd375ef753750aec132078ddf2b302cb3f6da",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

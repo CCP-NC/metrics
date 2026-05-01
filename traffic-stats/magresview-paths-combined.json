@@ -9755,6 +9755,31 @@
     },
     {
         "timestamp": "2026-05-01",
-        "data": []
+        "data": [
+            {
+                "path": "/CCP-NC/magresview/pulls",
+                "title": "/pulls",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/blob/master/examples/ethanol-jc.magres",
+                "title": "/blob/master/examples/ethanol-jc.magres",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/tree/master/examples",
+                "title": "/tree/master/examples",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

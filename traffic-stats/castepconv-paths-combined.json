@@ -18177,5 +18177,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-01",
+        "data": [
+            {
+                "path": "/CCP-NC/castepconv",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/castepconv/blob/master/user_guide.tex",
+                "title": "/blob/master/user_guide.tex",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/castepconv/blob/master/user_guide.pdf",
+                "title": "/blob/master/user_guide.pdf",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

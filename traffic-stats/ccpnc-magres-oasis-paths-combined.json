@@ -2396,6 +2396,36 @@
                 "title": "/tree/main/.volumes/fs",
                 "count": 3,
                 "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/Dockerfile",
+                "title": "/blob/main/Dockerfile",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/configs/nginx_https.conf",
+                "title": "/blob/main/configs/nginx_https.conf",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/configs/nomad.yaml",
+                "title": "/blob/main/configs/nomad.yaml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/docker-compose.yaml",
+                "title": "/blob/main/docker-compose.yaml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/graphs/commit-activity",
+                "title": "/graphs/commit-activity",
+                "count": 1,
+                "uniques": 1
             }
         ]
     }

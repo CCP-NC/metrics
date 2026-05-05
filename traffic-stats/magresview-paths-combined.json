@@ -9874,5 +9874,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-05",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview/pulls",
+                "title": "/pulls",
+                "count": 5,
+                "uniques": 5
+            },
+            {
+                "path": "/CCP-NC/magresview",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 4
+            },
+            {
+                "path": "/CCP-NC/magresview/blob/master/examples/ethanol-jc.magres",
+                "title": "/blob/master/examples/ethanol-jc.magres",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/tree/master/examples",
+                "title": "/tree/master/examples",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -2428,5 +2428,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-05",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main",
+                "title": "/tree/main",
+                "count": 25,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 17,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/.github/workflows/docker-publish.yml",
+                "title": "/blob/main/.github/workflows/docker-publish.yml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/Dockerfile",
+                "title": "/blob/main/Dockerfile",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/configs/nginx_https.conf",
+                "title": "/blob/main/configs/nginx_https.conf",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/configs/nomad.yaml",
+                "title": "/blob/main/configs/nomad.yaml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/docker-compose.yaml",
+                "title": "/blob/main/docker-compose.yaml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/graphs/commit-activity",
+                "title": "/graphs/commit-activity",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main/.github",
+                "title": "/tree/main/.github",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

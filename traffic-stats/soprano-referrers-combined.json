@@ -6701,5 +6701,30 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-05",
+        "data": [
+            {
+                "referrer": "github.com",
+                "count": 10,
+                "uniques": 3
+            },
+            {
+                "referrer": "Google",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "referrer": "DuckDuckGo",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "chatgpt.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

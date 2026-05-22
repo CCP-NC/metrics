@@ -2623,5 +2623,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-22",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main",
+                "title": "/tree/main",
+                "count": 18,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 8,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main/configs",
+                "title": "/tree/main/configs",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

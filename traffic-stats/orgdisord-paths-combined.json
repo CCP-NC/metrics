@@ -7517,5 +7517,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-22",
+        "data": [
+            {
+                "path": "/CCP-NC/orgdisord",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/orgdisord/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/orgdisord/pull/4",
+                "title": "/pull/4",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/ccp-nc/orgdisord",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

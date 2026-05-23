@@ -15237,5 +15237,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-23",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/ccpncdb/magresdb.py",
+                "title": "/blob/master/ccpncdb/magresdb.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/ccpncdb/schemas.py",
+                "title": "/blob/master/ccpncdb/schemas.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/ccpncdb/search.py",
+                "title": "/blob/master/ccpncdb/search.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/tree/master/static",
+                "title": "/tree/master/static",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -10124,5 +10124,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-27",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/forks",
+                "title": "/forks",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/tree/2d_graph",
+                "title": "/tree/2d_graph",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/tree/master/jsmol",
+                "title": "/tree/master/jsmol",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

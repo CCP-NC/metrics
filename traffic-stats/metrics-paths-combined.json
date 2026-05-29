@@ -4397,5 +4397,52 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-29",
+        "data": [
+            {
+                "path": "/CCP-NC/metrics/pulls",
+                "title": "/pulls",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/actions",
+                "title": "/actions",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/actions/runs/26261291823",
+                "title": "/actions/runs/26261291823",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/graphs/commit-activity",
+                "title": "/graphs/commit-activity",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/pull/2",
+                "title": "/pull/2",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/security/dependabot/2",
+                "title": "/security/dependabot/2",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

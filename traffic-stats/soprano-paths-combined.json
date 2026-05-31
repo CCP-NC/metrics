@@ -23920,5 +23920,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-31",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate/nmr",
+                "title": "/tree/master/soprano/calculate/nmr",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/pulls",
+                "title": "/pulls",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/soprano/network/members",
+                "title": "/network/members",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/calculate/nmr/nmr.py",
+                "title": "/blob/master/soprano/calculate/nmr/nmr.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/properties",
+                "title": "/tree/master/soprano/properties",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/ccp-nc/soprano",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/docs/simpson-conventions.md",
+                "title": "/blob/master/docs/simpson-conventions.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/properties/nmr/spinsystem.py",
+                "title": "/blob/master/soprano/properties/nmr/spinsystem.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/tests/simpson_validation/expected_results.md",
+                "title": "/blob/master/tests/simpson_validation/expected_results.md",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

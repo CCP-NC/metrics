@@ -6780,5 +6780,52 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-02",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pulls",
+                "title": "/pulls",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions/runs/26541714143/job/78184474407",
+                "title": "/actions/runs/26541714143/job/78184474407",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/compare/dft_menu_update",
+                "title": "/compare/dft_menu_update",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/3",
+                "title": "/pull/3",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/ccpnc_app_design",
+                "title": "/tree/ccpnc_app_design",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/dft_menu_update",
+                "title": "/tree/dft_menu_update",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

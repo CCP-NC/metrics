@@ -19076,5 +19076,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-03",
+        "data": [
+            {
+                "path": "/CCP-NC/castepconv",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/castepconv/blob/master/user_guide.pdf",
+                "title": "/blob/master/user_guide.pdf",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/castepconv/tree/master",
+                "title": "/tree/master",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/castepconv/tree/master/example",
+                "title": "/tree/master/example",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/castepconv/tree/master/test",
+                "title": "/tree/master/test",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

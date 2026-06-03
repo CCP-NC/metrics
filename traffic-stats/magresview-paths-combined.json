@@ -10285,5 +10285,22 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-03",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview/tree/2d_graph",
+                "title": "/tree/2d_graph",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

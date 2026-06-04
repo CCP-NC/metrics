@@ -4954,5 +4954,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-04",
+        "data": [
+            {
+                "path": "/CCP-NC/crystvis-js",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/commits/master",
+                "title": "/commits/master",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/releases",
+                "title": "/releases",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

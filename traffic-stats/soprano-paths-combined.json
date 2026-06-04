@@ -24210,5 +24210,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-04",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/network/members",
+                "title": "/network/members",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/pulls",
+                "title": "/pulls",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/docs/simpson-conventions.md",
+                "title": "/blob/master/docs/simpson-conventions.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/tests/simpson_validation/expected_results.md",
+                "title": "/blob/master/tests/simpson_validation/expected_results.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/tests/simpson_validation/generate_tests.py",
+                "title": "/blob/master/tests/simpson_validation/generate_tests.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/pull/48",
+                "title": "/pull/48",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/docs",
+                "title": "/tree/master/docs",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/ccp-nc/soprano/blob/master/soprano/nmr/tensor.py",
+                "title": "/blob/master/soprano/nmr/tensor.py",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -11547,5 +11547,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-05",
+        "data": [
+            {
+                "path": "/CCP-NC/make-supercell/blob/master/make-supercell.py",
+                "title": "/blob/master/make-supercell.py",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/make-supercell",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/make-supercell/agents",
+                "title": "/agents",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

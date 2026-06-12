@@ -11708,5 +11708,22 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-12",
+        "data": [
+            {
+                "path": "/CCP-NC/make-supercell",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/make-supercell/blob/master/make-supercell.py",
+                "title": "/blob/master/make-supercell.py",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

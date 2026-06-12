@@ -24586,5 +24586,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-12",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/soprano/pulls",
+                "title": "/pulls",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/soprano/network/members",
+                "title": "/network/members",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/2d-nmr-refactor",
+                "title": "/tree/2d-nmr-refactor",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano",
+                "title": "/tree/master/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/ccp-nc/soprano",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

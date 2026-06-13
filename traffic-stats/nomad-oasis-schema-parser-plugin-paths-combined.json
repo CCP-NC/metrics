@@ -8399,7 +8399,7 @@
             {
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pulls",
                 "title": "/pulls",
-                "count": 12,
+                "count": 16,
                 "uniques": 1
             },
             {
@@ -8411,7 +8411,7 @@
             {
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
                 "title": "Overview",
-                "count": 9,
+                "count": 14,
                 "uniques": 1
             },
             {
@@ -8454,6 +8454,18 @@
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/27212337564/job/80344491110",
                 "title": "/actions/runs/27212337564/job/80344491110",
                 "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/3",
+                "title": "/pull/3",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/releases/tag/v1.0.0",
+                "title": "/releases/tag/v1.0.0",
+                "count": 2,
                 "uniques": 1
             }
         ]

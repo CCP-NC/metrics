@@ -8482,7 +8482,7 @@
             {
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
                 "title": "Overview",
-                "count": 14,
+                "count": 17,
                 "uniques": 1
             },
             {
@@ -8531,6 +8531,12 @@
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/26960190599/job/79548126916",
                 "title": "/actions/runs/26960190599/job/79548126916",
                 "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 2,
                 "uniques": 1
             }
         ]

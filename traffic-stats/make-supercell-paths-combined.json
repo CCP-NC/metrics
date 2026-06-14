@@ -11754,5 +11754,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-14",
+        "data": [
+            {
+                "path": "/CCP-NC/make-supercell/blob/master/make-supercell.py",
+                "title": "/blob/master/make-supercell.py",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/make-supercell",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/make-supercell/blame/master/make-supercell.py",
+                "title": "/blame/master/make-supercell.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/make-supercell/commit/f2bf529c61a66122135cb68863c226adb70d6c6f",
+                "title": "/commit/f2bf529c61a66122135cb68863c226adb70d6c6f",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

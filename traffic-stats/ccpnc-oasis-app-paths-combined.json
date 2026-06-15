@@ -7619,5 +7619,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-15",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 10,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/3",
+                "title": "/pull/3",
+                "count": 7,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pulls",
+                "title": "/pulls",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/releases/tag/v0.2.1",
+                "title": "/releases/tag/v0.2.1",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/update_version_tag",
+                "title": "/tree/update_version_tag",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions/runs/27277733930/job/80563399837",
+                "title": "/actions/runs/27277733930/job/80563399837",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/9348cb68d192c1588074108571fabb0856d1603d/src/ccpnc_oasis_app/apps/__init__.py",
+                "title": "/blob/9348cb68d192c1588074108571fabb0856d1603d/src/ccpnc_oasis_app/apps/__init__.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/compare/update_version_tag",
+                "title": "/compare/update_version_tag",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/3/changes",
+                "title": "/pull/3/changes",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

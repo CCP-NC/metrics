@@ -8735,5 +8735,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-18",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "Overview",
+                "count": 17,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pulls",
+                "title": "/pulls",
+                "count": 16,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/1",
+                "title": "/pull/1",
+                "count": 9,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/3",
+                "title": "/pull/3",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits/main",
+                "title": "/commits/main",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/a2b8f9dd7054cad3cf5282f13ab75690ec7e6398/src/nomad_oasis_schema_parser_plugin/schema_packages/schema_package.py",
+                "title": "/blob/a2b8f9dd7054cad3cf5282f13ab75690ec7e6398/src/nomad_oasis_schema_parser_plugin/schema_packages/schema_package.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/1/changes/BASE..f33d78308a056b82dcb4078e888272d579eb5cd3",
+                "title": "/pull/1/changes/BASE..f33d78308a056b82dcb4078e888272d579eb5cd3",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/1/commits",
+                "title": "/pull/1/commits",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/releases/tag/v1.0.0",
+                "title": "/releases/tag/v1.0.0",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

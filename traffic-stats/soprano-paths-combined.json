@@ -25041,5 +25041,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-19",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano/pulls",
+                "title": "/pulls",
+                "count": 5,
+                "uniques": 5
+            },
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 3
+            },
+            {
+                "path": "/ccp-nc/soprano",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/properties/atomsproperty.py",
+                "title": "/blob/master/soprano/properties/atomsproperty.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/properties/symmetry/symmetry.py",
+                "title": "/blob/master/soprano/properties/symmetry/symmetry.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blame/master/soprano/properties/symmetry/backend.py",
+                "title": "/blame/master/soprano/properties/symmetry/backend.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/2d-nmr-refactor/tutorials/05-nmr-2d.ipynb",
+                "title": "/blob/2d-nmr-refactor/tutorials/05-nmr-2d.ipynb",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/c05ce57feaf7e3baaa107ecbd9f81dcf20be6f03/soprano/properties/symmetry/backend.py",
+                "title": "/blob/c05ce57feaf7e3baaa107ecbd9f81dcf20be6f03/soprano/properties/symmetry/backend.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/data/nmrdata.json",
+                "title": "/blob/master/soprano/data/nmrdata.json",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/properties/symmetry/backend.py",
+                "title": "/blob/master/soprano/properties/symmetry/backend.py",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -8293,5 +8293,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-25",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 8,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pulls",
+                "title": "/pulls",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/update_version_tag",
+                "title": "/tree/update_version_tag",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions/runs/27277733930/job/80563399837",
+                "title": "/actions/runs/27277733930/job/80563399837",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/compare/update_version_tag",
+                "title": "/compare/update_version_tag",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/4",
+                "title": "/pull/4",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/5",
+                "title": "/pull/5",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/releases/new",
+                "title": "/releases/new",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/releases/tag/v0.2.2",
+                "title": "/releases/tag/v0.2.2",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

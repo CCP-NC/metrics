@@ -12417,12 +12417,60 @@
             {
                 "path": "/CCP-NC/magresview-2/issues",
                 "title": "/issues",
-                "count": 1,
-                "uniques": 1
+                "count": 5,
+                "uniques": 2
             },
             {
                 "path": "/CCP-NC/magresview-2/pulls",
                 "title": "/pulls",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/security/dependabot",
+                "title": "/security/dependabot",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/35",
+                "title": "/pull/35",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/security",
+                "title": "/security",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions",
+                "title": "/actions",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/commit/cb08e09304459dd00cdd340d817f6945895c12e1",
+                "title": "/commit/cb08e09304459dd00cdd340d817f6945895c12e1",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/compare/7ad96b5a27...cb08e09304",
+                "title": "/compare/7ad96b5a27...cb08e09304",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/issues/26",
+                "title": "/issues/26",
                 "count": 1,
                 "uniques": 1
             }

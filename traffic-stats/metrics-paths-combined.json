@@ -4935,6 +4935,13 @@
     },
     {
         "timestamp": "2026-06-25",
-        "data": []
+        "data": [
+            {
+                "path": "/CCP-NC/metrics/pulse",
+                "title": "/pulse",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

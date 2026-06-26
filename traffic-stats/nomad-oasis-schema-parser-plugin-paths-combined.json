@@ -9303,5 +9303,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-26",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "Overview",
+                "count": 9,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/3",
+                "title": "/pull/3",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pulls",
+                "title": "/pulls",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/releases/tag/v1.0.1",
+                "title": "/releases/tag/v1.0.1",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/27420437822/job/81044273071",
+                "title": "/actions/runs/27420437822/job/81044273071",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/27422198508/job/81050429959",
+                "title": "/actions/runs/27422198508/job/81050429959",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/27422373513/job/81051048674",
+                "title": "/actions/runs/27422373513/job/81051048674",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/branches",
+                "title": "/branches",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/compare/version_change_dynamic",
+                "title": "/compare/version_change_dynamic",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -12488,7 +12488,7 @@
             {
                 "path": "/CCP-NC/magresview-2",
                 "title": "Overview",
-                "count": 5,
+                "count": 8,
                 "uniques": 1
             },
             {
@@ -12518,7 +12518,7 @@
             {
                 "path": "/CCP-NC/magresview-2/actions",
                 "title": "/actions",
-                "count": 1,
+                "count": 5,
                 "uniques": 1
             },
             {
@@ -12537,6 +12537,24 @@
                 "path": "/CCP-NC/magresview-2/issues/26",
                 "title": "/issues/26",
                 "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/deployments",
+                "title": "/deployments",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/tree/main",
+                "title": "/tree/main",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions/workflows/pages/pages-build-deployment",
+                "title": "/actions/workflows/pages/pages-build-deployment",
+                "count": 2,
                 "uniques": 1
             }
         ]

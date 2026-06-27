@@ -3517,5 +3517,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-27",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pulls",
+                "title": "/pulls",
+                "count": 19,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pull/11",
+                "title": "/pull/11",
+                "count": 12,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main",
+                "title": "/tree/main",
+                "count": 11,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/caches",
+                "title": "/actions/caches",
+                "count": 8,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 6,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pull/11/changes",
+                "title": "/pull/11/changes",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/28085327405/job/83165822041",
+                "title": "/actions/runs/28085327405/job/83165822041",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/1dfa79bfcc4e6e10992b49e3fb629876339aeebc/pyproject.toml",
+                "title": "/blob/1dfa79bfcc4e6e10992b49e3fb629876339aeebc/pyproject.toml",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/28031116119/job/82971742613",
+                "title": "/actions/runs/28031116119/job/82971742613",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/28031247571/job/82973612257",
+                "title": "/actions/runs/28031247571/job/82973612257",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

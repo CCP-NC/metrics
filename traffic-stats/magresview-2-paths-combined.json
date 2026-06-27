@@ -12558,5 +12558,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-27",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 8,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/issues",
+                "title": "/issues",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions",
+                "title": "/actions",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/security/dependabot",
+                "title": "/security/dependabot",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pulls",
+                "title": "/pulls",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/deployments",
+                "title": "/deployments",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/tree/main",
+                "title": "/tree/main",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions/workflows/pages/pages-build-deployment",
+                "title": "/actions/workflows/pages/pages-build-deployment",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/35",
+                "title": "/pull/35",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/security",
+                "title": "/security",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

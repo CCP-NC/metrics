@@ -11445,5 +11445,52 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-28",
+        "data": [
+            {
+                "path": "/CCP-NC/pynics/tree/master/pynics",
+                "title": "/tree/master/pynics",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/pynics/blob/master/pynics/nicsanalyse.py",
+                "title": "/blob/master/pynics/nicsanalyse.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pynics",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pynics/blob/master/README.md",
+                "title": "/blob/master/README.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pynics/blob/master/setup.py",
+                "title": "/blob/master/setup.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pynics/graphs/commit-activity",
+                "title": "/graphs/commit-activity",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pynics/tree/master",
+                "title": "/tree/master",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

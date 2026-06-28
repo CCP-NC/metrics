@@ -15526,5 +15526,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-28",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/activity",
+                "title": "/activity",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/watchers",
+                "title": "/watchers",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -9433,5 +9433,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-28",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/releases/tag/v1.0.1",
+                "title": "/releases/tag/v1.0.1",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

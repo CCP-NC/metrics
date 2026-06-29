@@ -25728,8 +25728,8 @@
             {
                 "path": "/CCP-NC/soprano",
                 "title": "Overview",
-                "count": 4,
-                "uniques": 3
+                "count": 8,
+                "uniques": 4
             },
             {
                 "path": "/ccp-nc/soprano",
@@ -25740,7 +25740,7 @@
             {
                 "path": "/CCP-NC/soprano/pulls",
                 "title": "/pulls",
-                "count": 2,
+                "count": 3,
                 "uniques": 1
             },
             {
@@ -25764,12 +25764,30 @@
             {
                 "path": "/CCP-NC/soprano/pull/45",
                 "title": "/pull/45",
-                "count": 1,
+                "count": 2,
                 "uniques": 1
             },
             {
                 "path": "/CCP-NC/soprano/pull/45/commits",
                 "title": "/pull/45/commits",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/__init__.py",
+                "title": "/blob/master/soprano/__init__.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/compare/bugfix/plotnmr-cli-precision-and-references",
+                "title": "/compare/bugfix/plotnmr-cli-precision-and-references",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/issues",
+                "title": "/issues",
                 "count": 1,
                 "uniques": 1
             }

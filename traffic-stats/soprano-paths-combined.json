@@ -25799,8 +25799,8 @@
             {
                 "path": "/CCP-NC/soprano",
                 "title": "Overview",
-                "count": 8,
-                "uniques": 4
+                "count": 9,
+                "uniques": 5
             },
             {
                 "path": "/CCP-NC/soprano/pulls",
@@ -25853,6 +25853,12 @@
             {
                 "path": "/CCP-NC/soprano/issues",
                 "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/tutorials/06-defect_calculations.ipynb",
+                "title": "/blob/master/tutorials/06-defect_calculations.ipynb",
                 "count": 1,
                 "uniques": 1
             }

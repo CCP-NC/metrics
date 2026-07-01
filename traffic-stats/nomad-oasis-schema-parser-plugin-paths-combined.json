@@ -9484,5 +9484,22 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-01",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commits",
+                "title": "/commits",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

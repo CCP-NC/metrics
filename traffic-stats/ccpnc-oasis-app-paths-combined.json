@@ -8478,5 +8478,22 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-02",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

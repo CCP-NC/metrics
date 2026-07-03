@@ -1344,5 +1344,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-03",
+        "data": [
+            {
+                "path": "/CCP-NC/pymc-nmr",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/blob/main/example/STA30/tutorial1.ipynb",
+                "title": "/blob/main/example/STA30/tutorial1.ipynb",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main",
+                "title": "/tree/main",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main/docs",
+                "title": "/tree/main/docs",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main/docs/source",
+                "title": "/tree/main/docs/source",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main/example/STA30",
+                "title": "/tree/main/example/STA30",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -4463,5 +4463,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-11",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pull/11/changes",
+                "title": "/pull/11/changes",
+                "count": 13,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main",
+                "title": "/tree/main",
+                "count": 6,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pull/11",
+                "title": "/pull/11",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/docker-compose.yaml",
+                "title": "/blob/main/docker-compose.yaml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/commit/3b3fd0344c5fd6d61beaab87bf219cd68147fc87",
+                "title": "/commit/3b3fd0344c5fd6d61beaab87bf219cd68147fc87",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/commits",
+                "title": "/commits",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/commits/main",
+                "title": "/commits/main",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

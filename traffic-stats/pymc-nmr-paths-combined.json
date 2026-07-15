@@ -2052,5 +2052,64 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-15",
+        "data": [
+            {
+                "path": "/CCP-NC/pymc-nmr",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main/example",
+                "title": "/tree/main/example",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main/example/STA30",
+                "title": "/tree/main/example/STA30",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/blob/main/example/STA30/tutorial1.ipynb",
+                "title": "/blob/main/example/STA30/tutorial1.ipynb",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/blob/main/LICENSE",
+                "title": "/blob/main/LICENSE",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/blob/main/example/.gitkeep",
+                "title": "/blob/main/example/.gitkeep",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main",
+                "title": "/tree/main",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main/docs",
+                "title": "/tree/main/docs",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main/docs/source",
+                "title": "/tree/main/docs/source",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

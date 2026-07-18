@@ -4792,5 +4792,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-18",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main",
+                "title": "/tree/main",
+                "count": 7,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pull/11/changes",
+                "title": "/pull/11/changes",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/blob/main/pyproject.toml",
+                "title": "/blob/main/pyproject.toml",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

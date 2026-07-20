@@ -9745,6 +9745,19 @@
     },
     {
         "timestamp": "2026-07-20",
-        "data": []
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/releases",
+                "title": "/releases",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

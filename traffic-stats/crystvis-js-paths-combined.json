@@ -5743,5 +5743,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-21",
+        "data": [
+            {
+                "path": "/CCP-NC/crystvis-js",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/pulls",
+                "title": "/pulls",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/compare/master...CCP-NC:crystvis-js:master",
+                "title": "/compare/master...CCP-NC:crystvis-js:master",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/pull/40",
+                "title": "/pull/40",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/stur86/crystvis-js/compare/master...CCP-NC:crystvis-js:master",
+                "title": "/compare/master...CCP-NC:crystvis-js:master",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

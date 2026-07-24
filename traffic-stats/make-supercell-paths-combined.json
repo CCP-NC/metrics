@@ -12914,5 +12914,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-24",
+        "data": [
+            {
+                "path": "/CCP-NC/make-supercell/blob/master/make-supercell.py",
+                "title": "/blob/master/make-supercell.py",
+                "count": 4,
+                "uniques": 4
+            },
+            {
+                "path": "/CCP-NC/make-supercell/blob/master/setup.py",
+                "title": "/blob/master/setup.py",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/make-supercell",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/make-supercell/releases",
+                "title": "/releases",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

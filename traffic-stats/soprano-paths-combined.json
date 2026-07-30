@@ -27826,5 +27826,64 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-30",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano/issues",
+                "title": "/issues",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/calculate/nmr/nmr.py",
+                "title": "/blob/master/soprano/calculate/nmr/nmr.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/pull/47",
+                "title": "/pull/47",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano",
+                "title": "/tree/master/soprano",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate/nmr",
+                "title": "/tree/master/soprano/calculate/nmr",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/properties",
+                "title": "/tree/master/soprano/properties",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/properties/nmr",
+                "title": "/tree/master/soprano/properties/nmr",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/ccp-nc/soprano",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

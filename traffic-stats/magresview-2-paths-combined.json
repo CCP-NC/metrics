@@ -14144,5 +14144,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-31",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/compare/main...CCP-NC:magresview-2:euler_angle_vis",
+                "title": "/compare/main...CCP-NC:magresview-2:euler_angle_vis",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/36",
+                "title": "/pull/36",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/stur86/magresview-2/compare/main...CCP-NC:magresview-2:euler_angle_vis",
+                "title": "/compare/main...CCP-NC:magresview-2:euler_angle_vis",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

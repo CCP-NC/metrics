@@ -16290,5 +16290,22 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-01",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "Overview",
+                "count": 10,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

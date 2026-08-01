@@ -6260,5 +6260,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-01",
+        "data": [
+            {
+                "path": "/CCP-NC/crystvis-js",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/blob/master/package.json",
+                "title": "/blob/master/package.json",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/pull/44",
+                "title": "/pull/44",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/actions",
+                "title": "/actions",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/actions/workflows/pages/pages-build-deployment",
+                "title": "/actions/workflows/pages/pages-build-deployment",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/blob/master/CHANGELOG.md",
+                "title": "/blob/master/CHANGELOG.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/compare/master...CCP-NC:crystvis-js:euler_angle_overhaul",
+                "title": "/compare/master...CCP-NC:crystvis-js:euler_angle_overhaul",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/milestones",
+                "title": "/milestones",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/releases",
+                "title": "/releases",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/releases/new",
+                "title": "/releases/new",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

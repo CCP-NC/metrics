@@ -318,5 +318,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-02",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs",
+                "title": "Overview",
+                "count": 7,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs/commit/02f64b97b16fb806d4ddd4a546f04e0831457e43",
+                "title": "/commit/02f64b97b16fb806d4ddd4a546f04e0831457e43",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs/blob/main/README.md",
+                "title": "/blob/main/README.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs/commit/874fdf16cf271ddf54a871248203ae93a8dbfa7c",
+                "title": "/commit/874fdf16cf271ddf54a871248203ae93a8dbfa7c",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs/commits/main",
+                "title": "/commits/main",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs/deployments/github-pages",
+                "title": "/deployments/github-pages",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

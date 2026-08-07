@@ -4059,5 +4059,58 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-07",
+        "data": [
+            {
+                "path": "/CCP-NC/crystcif-parse",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 4
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/blob/master/src/cryst.ts",
+                "title": "/blob/master/src/cryst.ts",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/blob/master/test/atoms.test.ts",
+                "title": "/blob/master/test/atoms.test.ts",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/blob/main/README.md",
+                "title": "/blob/main/README.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/blob/master/src/atoms.ts",
+                "title": "/blob/master/src/atoms.ts",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/blob/master/src/cif.ts",
+                "title": "/blob/master/src/cif.ts",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/blob/master/test/parse.test.ts",
+                "title": "/blob/master/test/parse.test.ts",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystcif-parse/tree/master/test",
+                "title": "/tree/master/test",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

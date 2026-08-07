@@ -9558,5 +9558,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-07",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/6",
+                "title": "/pull/6",
+                "count": 6,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commit/0e2763b8dace6e30636d164abe2998cbf870af92",
+                "title": "/commit/0e2763b8dace6e30636d164abe2998cbf870af92",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commits/oasis_menu_updates",
+                "title": "/commits/oasis_menu_updates",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/6/changes",
+                "title": "/pull/6/changes",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pulls",
+                "title": "/pulls",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/tree/oasis_menu_updates",
+                "title": "/tree/oasis_menu_updates",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions/runs/30473525368/job/90649392616",
+                "title": "/actions/runs/30473525368/job/90649392616",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions/runs/30507320737/job/90759793162",
+                "title": "/actions/runs/30507320737/job/90759793162",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/main/src/ccpnc_oasis_app/apps/__init__.py",
+                "title": "/blob/main/src/ccpnc_oasis_app/apps/__init__.py",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -10099,5 +10099,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-09",
+        "data": [
+            {
+                "path": "/CCP-NC/pspot-site",
+                "title": "Overview",
+                "count": 15,
+                "uniques": 4
+            },
+            {
+                "path": "/CCP-NC/pspot-site/blob/master/generate/castep_keywords.json",
+                "title": "/blob/master/generate/castep_keywords.json",
+                "count": 4,
+                "uniques": 4
+            },
+            {
+                "path": "/CCP-NC/pspot-site/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pspot-site/tree/master/generate",
+                "title": "/tree/master/generate",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

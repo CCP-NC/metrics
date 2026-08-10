@@ -28590,8 +28590,8 @@
             {
                 "path": "/CCP-NC/soprano",
                 "title": "Overview",
-                "count": 7,
-                "uniques": 7
+                "count": 8,
+                "uniques": 8
             },
             {
                 "path": "/CCP-NC/soprano/blob/master/soprano/utils.py",
@@ -28644,6 +28644,12 @@
             {
                 "path": "/CCP-NC/soprano/pulls",
                 "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano/calculate/nmr",
+                "title": "/tree/master/soprano/calculate/nmr",
                 "count": 1,
                 "uniques": 1
             }

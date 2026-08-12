@@ -12384,5 +12384,34 @@
                 "uniques": 2
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-12",
+        "data": [
+            {
+                "path": "/CCP-NC/pynics",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 4
+            },
+            {
+                "path": "/CCP-NC/pynics/blob/master/LICENSE",
+                "title": "/blob/master/LICENSE",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/pynics/labels",
+                "title": "/labels",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/pynics/tree/master/pynics",
+                "title": "/tree/master/pynics",
+                "count": 2,
+                "uniques": 2
+            }
+        ]
     }
 ]

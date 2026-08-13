@@ -10811,7 +10811,7 @@
             {
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
                 "title": "Overview",
-                "count": 8,
+                "count": 15,
                 "uniques": 1
             },
             {
@@ -10860,6 +10860,24 @@
                 "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/43f4ce64cd1ca6ae95c0b4c45b95e8e5a197b67f",
                 "title": "/commit/43f4ce64cd1ca6ae95c0b4c45b95e8e5a197b67f",
                 "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/releases",
+                "title": "/releases",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/releases/new",
+                "title": "/releases/new",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/update_dependencies_for_oasis",
+                "title": "/tree/update_dependencies_for_oasis",
+                "count": 2,
                 "uniques": 1
             }
         ]

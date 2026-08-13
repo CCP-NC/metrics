@@ -10798,5 +10798,70 @@
                 "uniques": 2
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-13",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/4",
+                "title": "/pull/4",
+                "count": 11,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "Overview",
+                "count": 8,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pulls",
+                "title": "/pulls",
+                "count": 6,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/4/changes",
+                "title": "/pull/4/changes",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/eee94233c2e00d220e2a5692d4f13531725e4735",
+                "title": "/commit/eee94233c2e00d220e2a5692d4f13531725e4735",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/oasis_custom_plugin_improvements",
+                "title": "/tree/oasis_custom_plugin_improvements",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/30507173476/job/90759350184",
+                "title": "/actions/runs/30507173476/job/90759350184",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/011033fc92efca390669a78b3e93c31091ee83d4",
+                "title": "/commit/011033fc92efca390669a78b3e93c31091ee83d4",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/34bf18c300ed95216e11c7341ea9f060d1a409f0",
+                "title": "/commit/34bf18c300ed95216e11c7341ea9f060d1a409f0",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/commit/43f4ce64cd1ca6ae95c0b4c45b95e8e5a197b67f",
+                "title": "/commit/43f4ce64cd1ca6ae95c0b4c45b95e8e5a197b67f",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

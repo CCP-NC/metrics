@@ -10049,5 +10049,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-14",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 10,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/6",
+                "title": "/pull/6",
+                "count": 7,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pulls",
+                "title": "/pulls",
+                "count": 6,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/7",
+                "title": "/pull/7",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/releases",
+                "title": "/releases",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/commit/0e2763b8dace6e30636d164abe2998cbf870af92",
+                "title": "/commit/0e2763b8dace6e30636d164abe2998cbf870af92",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/6/changes",
+                "title": "/pull/6/changes",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/7/changes",
+                "title": "/pull/7/changes",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/releases/new",
+                "title": "/releases/new",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/actions/runs/30507320737/job/90759793162",
+                "title": "/actions/runs/30507320737/job/90759793162",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

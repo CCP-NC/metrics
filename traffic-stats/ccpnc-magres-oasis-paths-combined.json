@@ -5461,5 +5461,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-14",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31608538633/job/94175375351",
+                "title": "/actions/runs/31608538633/job/94175375351",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31608538633",
+                "title": "/actions/runs/31608538633",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31608538633/job/94153639077",
+                "title": "/actions/runs/31608538633/job/94153639077",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31608538633/job/94153793945",
+                "title": "/actions/runs/31608538633/job/94153793945",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31649989778/job/94291982120",
+                "title": "/actions/runs/31649989778/job/94291982120",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

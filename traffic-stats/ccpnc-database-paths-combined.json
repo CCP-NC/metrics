@@ -17185,5 +17185,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-18",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "Overview",
+                "count": 8,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/pulls",
+                "title": "/pulls",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/commits/master",
+                "title": "/commits/master",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blame/1.0.0/ccpncdb/server.py",
+                "title": "/blame/1.0.0/ccpncdb/server.py",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/tree/1.0.0/ccpncdb",
+                "title": "/tree/1.0.0/ccpncdb",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/actions/workflows/ci.yml",
+                "title": "/actions/workflows/ci.yml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blame/1.0.0/.github/workflows/ci.yml",
+                "title": "/blame/1.0.0/.github/workflows/ci.yml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/1.0.0/.github/workflows/ci.yml",
+                "title": "/blob/1.0.0/.github/workflows/ci.yml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/1.0.0/ccpncdb/server.py",
+                "title": "/blob/1.0.0/ccpncdb/server.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/1.0.0/convert/greek.py",
+                "title": "/blob/1.0.0/convert/greek.py",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

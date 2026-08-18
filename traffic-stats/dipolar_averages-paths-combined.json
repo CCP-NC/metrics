@@ -6553,5 +6553,52 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-18",
+        "data": [
+            {
+                "path": "/CCP-NC/dipolar_averages",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main/Experimental",
+                "title": "/tree/main/Experimental",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main",
+                "title": "/tree/main",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/blob/main/vanVleckCalculator.py",
+                "title": "/blob/main/vanVleckCalculator.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main/Examples",
+                "title": "/tree/main/Examples",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main/Experimental/Diamantane",
+                "title": "/tree/main/Experimental/Diamantane",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main/tests",
+                "title": "/tree/main/tests",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

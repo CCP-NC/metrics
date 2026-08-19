@@ -5678,5 +5678,58 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-19",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31608538633/job/94175375351",
+                "title": "/actions/runs/31608538633/job/94175375351",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31934481675/job/95134193237",
+                "title": "/actions/runs/31934481675/job/95134193237",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31608538633",
+                "title": "/actions/runs/31608538633",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31608538633/job/94153639077",
+                "title": "/actions/runs/31608538633/job/94153639077",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31608538633/job/94153793945",
+                "title": "/actions/runs/31608538633/job/94153793945",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/31649989778/job/94291982120",
+                "title": "/actions/runs/31649989778/job/94291982120",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/commit/e758d82bbc131cca25d73180c27d9d145e68c066",
+                "title": "/commit/e758d82bbc131cca25d73180c27d9d145e68c066",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

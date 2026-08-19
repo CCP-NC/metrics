@@ -11224,5 +11224,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-19",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "Overview",
+                "count": 13,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/4",
+                "title": "/pull/4",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pulls",
+                "title": "/pulls",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/releases",
+                "title": "/releases",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/releases/new",
+                "title": "/releases/new",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/update_dependencies_for_oasis",
+                "title": "/tree/update_dependencies_for_oasis",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/31599967947/job/94124615733",
+                "title": "/actions/runs/31599967947/job/94124615733",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/actions/runs/31602631488/job/94133593165",
+                "title": "/actions/runs/31602631488/job/94133593165",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/compare/update_dependencies_for_oasis",
+                "title": "/compare/update_dependencies_for_oasis",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/pull/4/changes",
+                "title": "/pull/4/changes",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

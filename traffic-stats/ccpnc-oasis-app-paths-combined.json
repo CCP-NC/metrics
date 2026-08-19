@@ -10392,5 +10392,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-19",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 9,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/7",
+                "title": "/pull/7",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pulls",
+                "title": "/pulls",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/releases",
+                "title": "/releases",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/7/changes",
+                "title": "/pull/7/changes",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/releases/new",
+                "title": "/releases/new",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/compare/main...explore_columns_change",
+                "title": "/compare/main...explore_columns_change",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/3",
+                "title": "/pull/3",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/6",
+                "title": "/pull/6",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/releases/tag/v0.2.3",
+                "title": "/releases/tag/v0.2.3",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

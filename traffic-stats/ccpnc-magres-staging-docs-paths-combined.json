@@ -876,5 +876,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-08-20",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs",
+                "title": "Overview",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs/branches",
+                "title": "/branches",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs/commit/02f64b97b16fb806d4ddd4a546f04e0831457e43",
+                "title": "/commit/02f64b97b16fb806d4ddd4a546f04e0831457e43",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs/releases",
+                "title": "/releases",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-staging-docs/releases/new",
+                "title": "/releases/new",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

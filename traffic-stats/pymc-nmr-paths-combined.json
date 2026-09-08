@@ -2959,5 +2959,64 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-08",
+        "data": [
+            {
+                "path": "/CCP-NC/pymc-nmr",
+                "title": "Overview",
+                "count": 9,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/pull/1",
+                "title": "/pull/1",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/actions/runs/32858138324",
+                "title": "/actions/runs/32858138324",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/blob/main/src/pymc_nmr/config.py",
+                "title": "/blob/main/src/pymc_nmr/config.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/graphs/contributors",
+                "title": "/graphs/contributors",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/pull/1/changes",
+                "title": "/pull/1/changes",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/pull/1/commits",
+                "title": "/pull/1/commits",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/tree/main/src/pymc_nmr",
+                "title": "/tree/main/src/pymc_nmr",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

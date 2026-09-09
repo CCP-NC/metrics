@@ -15442,5 +15442,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-09",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/main/README.md",
+                "title": "/blob/main/README.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/tree/main/docs",
+                "title": "/tree/main/docs",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/tree/main/docs/adr",
+                "title": "/tree/main/docs/adr",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/tree/main/public",
+                "title": "/tree/main/public",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

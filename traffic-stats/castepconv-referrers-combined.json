@@ -9931,5 +9931,25 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-10",
+        "data": [
+            {
+                "referrer": "Google",
+                "count": 7,
+                "uniques": 2
+            },
+            {
+                "referrer": "github.com",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "referrer": "search.brave.com",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

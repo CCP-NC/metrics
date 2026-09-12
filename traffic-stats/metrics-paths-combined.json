@@ -5638,5 +5638,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-12",
+        "data": [
+            {
+                "path": "/CCP-NC/metrics/actions",
+                "title": "/actions",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/metrics",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/branches",
+                "title": "/branches",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

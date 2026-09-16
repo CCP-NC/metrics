@@ -3473,5 +3473,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-16",
+        "data": [
+            {
+                "path": "/CCP-NC/pymc-nmr",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/actions",
+                "title": "/actions",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/actions/runs/32858138324",
+                "title": "/actions/runs/32858138324",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/actions/runs/32858138324/job/102097342824",
+                "title": "/actions/runs/32858138324/job/102097342824",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/actions/runs/32858138324/job/102097344623",
+                "title": "/actions/runs/32858138324/job/102097344623",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/actions/runs/32858138324/job/97835330864",
+                "title": "/actions/runs/32858138324/job/97835330864",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/actions/runs/34237223069",
+                "title": "/actions/runs/34237223069",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/actions/runs/34237223069/job/102099313915",
+                "title": "/actions/runs/34237223069/job/102099313915",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/actions/workflows/docs.yml",
+                "title": "/actions/workflows/docs.yml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/pymc-nmr/blob/main/example/CHA/config_production.yaml",
+                "title": "/blob/main/example/CHA/config_production.yaml",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -15547,6 +15547,31 @@
     },
     {
         "timestamp": "2026-09-16",
-        "data": []
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2/pulls",
+                "title": "/pulls",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/36",
+                "title": "/pull/36",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

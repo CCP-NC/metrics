@@ -2820,5 +2820,40 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-17",
+        "data": [
+            {
+                "path": "/CCP-NC/.github/blob/main/profile/ccpnc_logo.png",
+                "title": "/blob/main/profile/ccpnc_logo.png",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/.github",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/.github/blob/main/profile/README.md",
+                "title": "/blob/main/profile/README.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/.github/edit/main/profile/ccpnc_logo.png",
+                "title": "/edit/main/profile/ccpnc_logo.png",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/.github/tree/main/profile",
+                "title": "/tree/main/profile",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

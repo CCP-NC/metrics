@@ -10504,5 +10504,22 @@
                 "uniques": 3
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-17",
+        "data": [
+            {
+                "path": "/CCP-NC/pspot-site",
+                "title": "Overview",
+                "count": 28,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/pspot-site/blob/master/generate/castep_keywords.json",
+                "title": "/blob/master/generate/castep_keywords.json",
+                "count": 3,
+                "uniques": 3
+            }
+        ]
     }
 ]

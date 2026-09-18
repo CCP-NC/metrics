@@ -15638,5 +15638,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-18",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2/pulls",
+                "title": "/pulls",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/tree/feature/second_order_shift",
+                "title": "/tree/feature/second_order_shift",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/36",
+                "title": "/pull/36",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/38",
+                "title": "/pull/38",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions/runs/35087890824/job/104766962821",
+                "title": "/actions/runs/35087890824/job/104766962821",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/feature/second_order_shift/docs/QuadrupolarShifts.md",
+                "title": "/blob/feature/second_order_shift/docs/QuadrupolarShifts.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/compare/main...CCP-NC:magresview-2:feature/second_order_shift",
+                "title": "/compare/main...CCP-NC:magresview-2:feature/second_order_shift",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/38/changes",
+                "title": "/pull/38/changes",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

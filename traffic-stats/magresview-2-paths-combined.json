@@ -15780,5 +15780,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-20",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2/pulls",
+                "title": "/pulls",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/38",
+                "title": "/pull/38",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/36",
+                "title": "/pull/36",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/tree/feature/second_order_shift",
+                "title": "/tree/feature/second_order_shift",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions/runs/35087890824/job/104766962821",
+                "title": "/actions/runs/35087890824/job/104766962821",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/feature/second_order_shift/docs/QuadrupolarShifts.md",
+                "title": "/blob/feature/second_order_shift/docs/QuadrupolarShifts.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/main/README.md",
+                "title": "/blob/main/README.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/commit/84c6842fdc5487bac88a0f4cba71e6289051988b",
+                "title": "/commit/84c6842fdc5487bac88a0f4cba71e6289051988b",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/compare/main...CCP-NC:magresview-2:feature/second_order_shift",
+                "title": "/compare/main...CCP-NC:magresview-2:feature/second_order_shift",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

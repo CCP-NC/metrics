@@ -22161,5 +22161,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-24",
+        "data": [
+            {
+                "path": "/CCP-NC/castepconv/blob/master/user_guide.tex",
+                "title": "/blob/master/user_guide.tex",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/castepconv/tree/master",
+                "title": "/tree/master",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/castepconv",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/castepconv/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

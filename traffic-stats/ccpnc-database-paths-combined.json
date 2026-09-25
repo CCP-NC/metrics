@@ -17735,5 +17735,22 @@
                 "uniques": 2
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-25",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/requirements.txt",
+                "title": "/blob/master/requirements.txt",
+                "count": 2,
+                "uniques": 2
+            }
+        ]
     }
 ]

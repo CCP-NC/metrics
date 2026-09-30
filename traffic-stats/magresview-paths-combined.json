@@ -11727,5 +11727,22 @@
                 "uniques": 2
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-30",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

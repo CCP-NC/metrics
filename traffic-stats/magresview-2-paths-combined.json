@@ -16460,5 +16460,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-30",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2/pulls",
+                "title": "/pulls",
+                "count": 18,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 16,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/39",
+                "title": "/pull/39",
+                "count": 10,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/38",
+                "title": "/pull/38",
+                "count": 5,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/36",
+                "title": "/pull/36",
+                "count": 4,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions",
+                "title": "/actions",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/tree/feature/second_order_shift",
+                "title": "/tree/feature/second_order_shift",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/feature/second_order_shift/docs/QuadrupolarShifts.md",
+                "title": "/blob/feature/second_order_shift/docs/QuadrupolarShifts.md",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/main/README.md",
+                "title": "/blob/main/README.md",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview-2/deployments/github-pages",
+                "title": "/deployments/github-pages",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -3640,5 +3640,22 @@
                 "uniques": 2
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-02",
+        "data": [
+            {
+                "path": "/CCP-NC/simpson-docker",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/simpson-docker/blob/main/README.md",
+                "title": "/blob/main/README.md",
+                "count": 2,
+                "uniques": 2
+            }
+        ]
     }
 ]

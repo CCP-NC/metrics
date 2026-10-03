@@ -17889,5 +17889,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-03",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/LICENSE.md",
+                "title": "/blob/master/LICENSE.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database/blob/master/requirements.txt",
+                "title": "/blob/master/requirements.txt",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

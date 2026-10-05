@@ -11920,5 +11920,46 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-05",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/magresview/blob/master/magres_view.html",
+                "title": "/blob/master/magres_view.html",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/labels",
+                "title": "/labels",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/tree/master",
+                "title": "/tree/master",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

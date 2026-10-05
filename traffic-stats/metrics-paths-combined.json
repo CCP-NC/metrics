@@ -6197,5 +6197,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-05",
+        "data": [
+            {
+                "path": "/CCP-NC/metrics/blob/main/README.md",
+                "title": "/blob/main/README.md",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/metrics/blob/main/requirements.txt",
+                "title": "/blob/main/requirements.txt",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/milestones",
+                "title": "/milestones",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

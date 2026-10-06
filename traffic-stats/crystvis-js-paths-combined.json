@@ -7694,5 +7694,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-06",
+        "data": [
+            {
+                "path": "/CCP-NC/crystvis-js",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/blob/master/docs-tutorials/ThreejsMigration.md",
+                "title": "/blob/master/docs-tutorials/ThreejsMigration.md",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/blob/master/CHANGELOG.md",
+                "title": "/blob/master/CHANGELOG.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/crystvis-js/pull/41",
+                "title": "/pull/41",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

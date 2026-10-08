@@ -17028,5 +17028,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-08",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions",
+                "title": "/actions",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions/runs/35748965015",
+                "title": "/actions/runs/35748965015",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/actions/workflows/pages/pages-build-deployment",
+                "title": "/actions/workflows/pages/pages-build-deployment",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/feature/second_order_shift/docs/QuadrupolarShifts.md",
+                "title": "/blob/feature/second_order_shift/docs/QuadrupolarShifts.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/main/.github/workflows/ci.yml",
+                "title": "/blob/main/.github/workflows/ci.yml",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/main/README.md",
+                "title": "/blob/main/README.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/main/package.json",
+                "title": "/blob/main/package.json",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/39",
+                "title": "/pull/39",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

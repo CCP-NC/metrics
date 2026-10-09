@@ -12091,8 +12091,8 @@
             {
                 "path": "/CCP-NC/magresview",
                 "title": "Overview",
-                "count": 2,
-                "uniques": 2
+                "count": 5,
+                "uniques": 3
             },
             {
                 "path": "/CCP-NC/magresview/pulls",
@@ -12103,8 +12103,8 @@
             {
                 "path": "/CCP-NC/magresview/blob/master/magres_view.html",
                 "title": "/blob/master/magres_view.html",
-                "count": 2,
-                "uniques": 1
+                "count": 3,
+                "uniques": 2
             },
             {
                 "path": "/CCP-NC/magresview/issues",
@@ -12121,6 +12121,12 @@
             {
                 "path": "/CCP-NC/magresview/tree/master",
                 "title": "/tree/master",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview/projects",
+                "title": "/projects",
                 "count": 1,
                 "uniques": 1
             }

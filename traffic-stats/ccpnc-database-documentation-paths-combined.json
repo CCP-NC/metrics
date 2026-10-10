@@ -531,5 +531,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-10",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-database-documentation",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database-documentation/commit/02f64b97b16fb806d4ddd4a546f04e0831457e43",
+                "title": "/commit/02f64b97b16fb806d4ddd4a546f04e0831457e43",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-database-documentation/commit/3b0c14c7a7e238e6f1298127e8b599f583d1bbbd",
+                "title": "/commit/3b0c14c7a7e238e6f1298127e8b599f583d1bbbd",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

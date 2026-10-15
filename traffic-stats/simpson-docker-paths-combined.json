@@ -3822,6 +3822,25 @@
     },
     {
         "timestamp": "2026-10-15",
-        "data": []
+        "data": [
+            {
+                "path": "/CCP-NC/simpson-docker/actions/runs/38558154777/job/115832344090",
+                "title": "/actions/runs/38558154777/job/115832344090",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/simpson-docker/actions/runs/38558154777",
+                "title": "/actions/runs/38558154777",
+                "count": 3,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/simpson-docker/actions",
+                "title": "/actions",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

@@ -31403,5 +31403,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-15",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano/blob/master/license_info.txt",
+                "title": "/blob/master/license_info.txt",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/main/soprano/properties/nmr.py",
+                "title": "/blob/main/soprano/properties/nmr.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/ccp-nc/soprano",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

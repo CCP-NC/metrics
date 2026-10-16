@@ -17524,5 +17524,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-16",
+        "data": [
+            {
+                "path": "/CCP-NC/magresview-2/pulls",
+                "title": "/pulls",
+                "count": 7,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/39",
+                "title": "/pull/39",
+                "count": 5,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/38",
+                "title": "/pull/38",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/magresview-2",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/blob/main/docs/QuadrupolarShifts.md",
+                "title": "/blob/main/docs/QuadrupolarShifts.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/compare/main...feature/export-overhaul",
+                "title": "/compare/main...feature/export-overhaul",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/issues",
+                "title": "/issues",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/38/files",
+                "title": "/pull/38/files",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/39/changes",
+                "title": "/pull/39/changes",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/magresview-2/pull/39/commits/d16e63dfd0ce27c57b3cda16ba64bd9a1265f286",
+                "title": "/pull/39/commits/d16e63dfd0ce27c57b3cda16ba64bd9a1265f286",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

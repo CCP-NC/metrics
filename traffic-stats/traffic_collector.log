@@ -7602,3 +7602,124 @@
 2026-10-18 00:14:38,866 - root - INFO - Saving clones data to traffic-stats/make-supercell-clones-combined.json
 2026-10-18 00:14:39,013 - root - INFO - Saving referrers data to traffic-stats/make-supercell-referrers-combined.json
 2026-10-18 00:14:39,025 - root - INFO - Saving paths data to traffic-stats/make-supercell-paths-combined.json
+2026-10-18 12:06:44,183 - root - INFO - Saving clones data to traffic-stats/metrics-clones-combined.json
+2026-10-18 12:06:44,192 - root - INFO - Saving views data to traffic-stats/metrics-views-combined.json
+2026-10-18 12:06:44,338 - root - INFO - Saving paths data to traffic-stats/metrics-paths-combined.json
+2026-10-18 12:06:44,348 - root - WARNING - Invalid paths data: []
+2026-10-18 12:06:44,348 - root - INFO - Saving referrers data to traffic-stats/metrics-referrers-combined.json
+2026-10-18 12:06:44,351 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:45,187 - root - INFO - Saving clones data to traffic-stats/crystvis-js-clones-combined.json
+2026-10-18 12:06:45,203 - root - INFO - Saving views data to traffic-stats/crystvis-js-views-combined.json
+2026-10-18 12:06:45,353 - root - INFO - Saving referrers data to traffic-stats/crystvis-js-referrers-combined.json
+2026-10-18 12:06:45,365 - root - INFO - Saving paths data to traffic-stats/crystvis-js-paths-combined.json
+2026-10-18 12:06:46,201 - root - INFO - Saving views data to traffic-stats/orgdisord-views-combined.json
+2026-10-18 12:06:46,221 - root - INFO - Saving clones data to traffic-stats/orgdisord-clones-combined.json
+2026-10-18 12:06:46,362 - root - INFO - Saving referrers data to traffic-stats/orgdisord-referrers-combined.json
+2026-10-18 12:06:46,373 - root - INFO - Saving paths data to traffic-stats/orgdisord-paths-combined.json
+2026-10-18 12:06:47,221 - root - INFO - Saving clones data to traffic-stats/soprano-clones-combined.json
+2026-10-18 12:06:47,227 - root - INFO - Saving views data to traffic-stats/soprano-views-combined.json
+2026-10-18 12:06:47,373 - root - INFO - Saving referrers data to traffic-stats/soprano-referrers-combined.json
+2026-10-18 12:06:47,385 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:47,423 - root - INFO - Saving paths data to traffic-stats/soprano-paths-combined.json
+2026-10-18 12:06:48,289 - root - INFO - Saving views data to traffic-stats/simpson-docker-views-combined.json
+2026-10-18 12:06:48,294 - root - INFO - Saving clones data to traffic-stats/simpson-docker-clones-combined.json
+2026-10-18 12:06:48,444 - root - INFO - Saving referrers data to traffic-stats/simpson-docker-referrers-combined.json
+2026-10-18 12:06:48,448 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:48,462 - root - INFO - Saving paths data to traffic-stats/simpson-docker-paths-combined.json
+2026-10-18 12:06:49,281 - root - INFO - Saving clones data to traffic-stats/magresview-2-clones-combined.json
+2026-10-18 12:06:49,303 - root - INFO - Saving views data to traffic-stats/magresview-2-views-combined.json
+2026-10-18 12:06:49,433 - root - INFO - Saving referrers data to traffic-stats/magresview-2-referrers-combined.json
+2026-10-18 12:06:49,439 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:49,455 - root - INFO - Saving paths data to traffic-stats/magresview-2-paths-combined.json
+2026-10-18 12:06:50,306 - root - INFO - Saving views data to traffic-stats/ccpnc-database-documentation-views-combined.json
+2026-10-18 12:06:50,310 - root - INFO - Saving clones data to traffic-stats/ccpnc-database-documentation-clones-combined.json
+2026-10-18 12:06:50,452 - root - INFO - Saving referrers data to traffic-stats/ccpnc-database-documentation-referrers-combined.json
+2026-10-18 12:06:50,453 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:50,456 - root - INFO - Saving paths data to traffic-stats/ccpnc-database-documentation-paths-combined.json
+2026-10-18 12:06:51,242 - root - INFO - Saving views data to traffic-stats/pymc-nmr-views-combined.json
+2026-10-18 12:06:51,281 - root - INFO - Saving clones data to traffic-stats/pymc-nmr-clones-combined.json
+2026-10-18 12:06:51,433 - root - INFO - Saving paths data to traffic-stats/pymc-nmr-paths-combined.json
+2026-10-18 12:06:51,440 - root - WARNING - Invalid paths data: []
+2026-10-18 12:06:51,451 - root - INFO - Saving referrers data to traffic-stats/pymc-nmr-referrers-combined.json
+2026-10-18 12:06:51,453 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:52,271 - root - INFO - Saving views data to traffic-stats/ccpnc-magres-oasis-views-combined.json
+2026-10-18 12:06:52,321 - root - INFO - Saving clones data to traffic-stats/ccpnc-magres-oasis-clones-combined.json
+2026-10-18 12:06:52,435 - root - INFO - Saving referrers data to traffic-stats/ccpnc-magres-oasis-referrers-combined.json
+2026-10-18 12:06:52,477 - root - INFO - Saving paths data to traffic-stats/ccpnc-magres-oasis-paths-combined.json
+2026-10-18 12:06:53,282 - root - INFO - Saving views data to traffic-stats/nomad-oasis-schema-parser-plugin-views-combined.json
+2026-10-18 12:06:53,301 - root - INFO - Saving clones data to traffic-stats/nomad-oasis-schema-parser-plugin-clones-combined.json
+2026-10-18 12:06:53,442 - root - INFO - Saving referrers data to traffic-stats/nomad-oasis-schema-parser-plugin-referrers-combined.json
+2026-10-18 12:06:53,447 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:53,447 - root - INFO - Saving paths data to traffic-stats/nomad-oasis-schema-parser-plugin-paths-combined.json
+2026-10-18 12:06:54,286 - root - INFO - Saving clones data to traffic-stats/ccpnc-oasis-app-clones-combined.json
+2026-10-18 12:06:54,294 - root - INFO - Saving views data to traffic-stats/ccpnc-oasis-app-views-combined.json
+2026-10-18 12:06:54,437 - root - INFO - Saving referrers data to traffic-stats/ccpnc-oasis-app-referrers-combined.json
+2026-10-18 12:06:54,441 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:54,451 - root - INFO - Saving paths data to traffic-stats/ccpnc-oasis-app-paths-combined.json
+2026-10-18 12:06:55,275 - root - INFO - Saving views data to traffic-stats/pynics-views-combined.json
+2026-10-18 12:06:55,291 - root - INFO - Saving clones data to traffic-stats/pynics-clones-combined.json
+2026-10-18 12:06:55,426 - root - INFO - Saving referrers data to traffic-stats/pynics-referrers-combined.json
+2026-10-18 12:06:55,432 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:55,439 - root - INFO - Saving paths data to traffic-stats/pynics-paths-combined.json
+2026-10-18 12:06:56,281 - root - INFO - Saving views data to traffic-stats/crystcif-parse-views-combined.json
+2026-10-18 12:06:56,289 - root - INFO - Saving clones data to traffic-stats/crystcif-parse-clones-combined.json
+2026-10-18 12:06:56,431 - root - INFO - Saving referrers data to traffic-stats/crystcif-parse-referrers-combined.json
+2026-10-18 12:06:56,435 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:56,477 - root - INFO - Saving paths data to traffic-stats/crystcif-parse-paths-combined.json
+2026-10-18 12:06:56,485 - root - WARNING - Invalid paths data: []
+2026-10-18 12:06:57,281 - root - INFO - Saving views data to traffic-stats/pint_units_add-views-combined.json
+2026-10-18 12:06:57,303 - root - INFO - Saving clones data to traffic-stats/pint_units_add-clones-combined.json
+2026-10-18 12:06:57,440 - root - INFO - Saving paths data to traffic-stats/pint_units_add-paths-combined.json
+2026-10-18 12:06:57,442 - root - WARNING - Invalid paths data: []
+2026-10-18 12:06:57,443 - root - INFO - Saving referrers data to traffic-stats/pint_units_add-referrers-combined.json
+2026-10-18 12:06:57,444 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:58,239 - root - INFO - Saving views data to traffic-stats/ccpnc-database-views-combined.json
+2026-10-18 12:06:58,253 - root - INFO - Saving clones data to traffic-stats/ccpnc-database-clones-combined.json
+2026-10-18 12:06:58,379 - root - INFO - Saving referrers data to traffic-stats/ccpnc-database-referrers-combined.json
+2026-10-18 12:06:58,385 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:58,406 - root - INFO - Saving paths data to traffic-stats/ccpnc-database-paths-combined.json
+2026-10-18 12:06:59,236 - root - INFO - Saving views data to traffic-stats/nomad-parser-magres-views-combined.json
+2026-10-18 12:06:59,240 - root - INFO - Saving clones data to traffic-stats/nomad-parser-magres-clones-combined.json
+2026-10-18 12:06:59,385 - root - INFO - Saving referrers data to traffic-stats/nomad-parser-magres-referrers-combined.json
+2026-10-18 12:06:59,390 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:06:59,391 - root - INFO - Saving paths data to traffic-stats/nomad-parser-magres-paths-combined.json
+2026-10-18 12:07:00,212 - root - INFO - Saving clones data to traffic-stats/.github-clones-combined.json
+2026-10-18 12:07:00,227 - root - INFO - Saving views data to traffic-stats/.github-views-combined.json
+2026-10-18 12:07:00,359 - root - INFO - Saving referrers data to traffic-stats/.github-referrers-combined.json
+2026-10-18 12:07:00,363 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:07:00,379 - root - INFO - Saving paths data to traffic-stats/.github-paths-combined.json
+2026-10-18 12:07:00,384 - root - WARNING - Invalid paths data: []
+2026-10-18 12:07:01,186 - root - INFO - Saving views data to traffic-stats/dipolar_averages-views-combined.json
+2026-10-18 12:07:01,198 - root - INFO - Saving clones data to traffic-stats/dipolar_averages-clones-combined.json
+2026-10-18 12:07:01,336 - root - INFO - Saving referrers data to traffic-stats/dipolar_averages-referrers-combined.json
+2026-10-18 12:07:01,341 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:07:01,343 - root - INFO - Saving paths data to traffic-stats/dipolar_averages-paths-combined.json
+2026-10-18 12:07:02,155 - root - INFO - Saving views data to traffic-stats/pspot-site-views-combined.json
+2026-10-18 12:07:02,169 - root - INFO - Saving clones data to traffic-stats/pspot-site-clones-combined.json
+2026-10-18 12:07:02,303 - root - INFO - Saving referrers data to traffic-stats/pspot-site-referrers-combined.json
+2026-10-18 12:07:02,311 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:07:02,317 - root - INFO - Saving paths data to traffic-stats/pspot-site-paths-combined.json
+2026-10-18 12:07:03,150 - root - INFO - Saving views data to traffic-stats/parse-fmt-views-combined.json
+2026-10-18 12:07:03,155 - root - INFO - Saving clones data to traffic-stats/parse-fmt-clones-combined.json
+2026-10-18 12:07:03,297 - root - INFO - Saving referrers data to traffic-stats/parse-fmt-referrers-combined.json
+2026-10-18 12:07:03,302 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:07:03,306 - root - INFO - Saving paths data to traffic-stats/parse-fmt-paths-combined.json
+2026-10-18 12:07:03,313 - root - WARNING - Invalid paths data: []
+2026-10-18 12:07:04,110 - root - INFO - Saving views data to traffic-stats/staged-recipes-views-combined.json
+2026-10-18 12:07:04,134 - root - INFO - Saving clones data to traffic-stats/staged-recipes-clones-combined.json
+2026-10-18 12:07:04,292 - root - INFO - Saving paths data to traffic-stats/staged-recipes-paths-combined.json
+2026-10-18 12:07:04,297 - root - WARNING - Invalid paths data: []
+2026-10-18 12:07:04,314 - root - INFO - Saving referrers data to traffic-stats/staged-recipes-referrers-combined.json
+2026-10-18 12:07:04,317 - root - WARNING - Invalid referrers data: []
+2026-10-18 12:07:05,143 - root - INFO - Saving clones data to traffic-stats/castepconv-clones-combined.json
+2026-10-18 12:07:05,147 - root - INFO - Saving views data to traffic-stats/castepconv-views-combined.json
+2026-10-18 12:07:05,300 - root - INFO - Saving paths data to traffic-stats/castepconv-paths-combined.json
+2026-10-18 12:07:05,337 - root - INFO - Saving referrers data to traffic-stats/castepconv-referrers-combined.json
+2026-10-18 12:07:06,160 - root - INFO - Saving views data to traffic-stats/magresview-views-combined.json
+2026-10-18 12:07:06,171 - root - INFO - Saving clones data to traffic-stats/magresview-clones-combined.json
+2026-10-18 12:07:06,322 - root - INFO - Saving paths data to traffic-stats/magresview-paths-combined.json
+2026-10-18 12:07:06,345 - root - INFO - Saving referrers data to traffic-stats/magresview-referrers-combined.json
+2026-10-18 12:07:07,149 - root - INFO - Saving clones data to traffic-stats/make-supercell-clones-combined.json
+2026-10-18 12:07:07,161 - root - INFO - Saving views data to traffic-stats/make-supercell-views-combined.json
+2026-10-18 12:07:07,305 - root - INFO - Saving referrers data to traffic-stats/make-supercell-referrers-combined.json
+2026-10-18 12:07:07,329 - root - INFO - Saving paths data to traffic-stats/make-supercell-paths-combined.json

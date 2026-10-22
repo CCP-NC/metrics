@@ -53,6 +53,20 @@ After verifying locally, commit and push changes to deploy the GitHub Actions wo
 
 **Package downloads**: `.github/scripts/collect_downloads.py` reads `projects.yml` (which maps each project to its GitHub repos and PyPI/npm packages) and merges daily download counts from pypistats and npm into `traffic-stats/downloads.csv`. pypistats only keeps ~180 days, so the CSV is the long-term record. Run it locally with `python .github/scripts/collect_downloads.py` (set `GH_TOKEN` to also get a warning when an org repo is missing from `projects.yml`).
 
+## Dashboard and reports
+
+Both read the data in `traffic-stats/` and share the plots in `ccpnc_metrics/plots.py`. They are run locally with [uv](https://docs.astral.sh/uv/), which installs the dependencies listed at the top of each script.
+
+```bash
+# Interactive dashboard (marimo)
+uvx marimo run --sandbox dashboard.py      # or `edit` to modify it
+
+# PDF report + PNG figures + CSV tables for a period
+uv run report.py --from 2026-01-01 --to 2026-09-30   # writes reports/<from>_to_<to>/
+```
+
+On macOS the PDF step needs `brew install pango`. Every figure is a proxy for use, not a count of people: see the "How to read these numbers" box in the report.
+
 ## Contributing
 
 Contributions are welcome! To contribute:

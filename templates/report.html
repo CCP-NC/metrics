@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CCP-NC usage metrics {{ start }} to {{ end }}</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 18mm 16mm;
+          @bottom-right { content: "Page " counter(page) " of " counter(pages); font-size: 8pt; color: #777; }
+          @bottom-left { content: "CCP-NC usage metrics, {{ start }} to {{ end }}"; font-size: 8pt; color: #777; } }
+  body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 10pt; color: #222; line-height: 1.4; }
+  h1 { font-size: 22pt; margin: 0 0 2mm 0; }
+  h2 { font-size: 14pt; margin: 6mm 0 2mm 0; border-bottom: 1px solid #ccc; padding-bottom: 1mm; }
+  .sub { color: #666; margin-bottom: 6mm; }
+  table { border-collapse: collapse; width: 100%; margin: 3mm 0; }
+  th, td { text-align: right; padding: 1.5mm 2mm; border-bottom: 1px solid #e3e3e3; }
+  th:first-child, td:first-child { text-align: left; }
+  th { background: #f3f3f3; font-weight: 600; }
+  .up { color: #1b7837; } .down { color: #b2182b; } .na { color: #888; }
+  .box { background: #f7f7f2; border-left: 3px solid #E69F00; padding: 3mm 4mm; margin: 4mm 0; font-size: 9pt; }
+  .box ul { margin: 1mm 0 0 4mm; padding: 0; }
+  figure { margin: 3mm 0; break-inside: avoid; }
+  figure img { width: 100%; }
+  h2 { break-after: avoid; }
+  figcaption { font-size: 8.5pt; color: #666; }
+  .pagebreak { break-before: page; }
+  table.pair td { border: 0; padding: 0 1mm; width: 50%; text-align: left; }
+  @media screen { body { max-width: 800px; margin: 20px auto; } }
+  .small { font-size: 8.5pt; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>CCP-NC usage metrics</h1>
+<div class="sub">{{ start }} to {{ end }} &middot; generated {{ generated }}</div>
+
+<h2>Headline numbers</h2>
+<table>
+  <tr><th>Metric</th><th>This period</th><th>Previous period</th><th>Change</th></tr>
+  {% for r in headline %}
+  <tr>
+    <td>{{ r.metric }}</td>
+    <td>{{ "{:,}".format(r.current) }}</td>
+    <td>{{ "{:,}".format(r.previous) }}</td>
+    <td class="{{ r.cls }}">{{ r.change }}</td>
+  </tr>
+  {% endfor %}
+</table>
+<p class="small">The previous period is the equal-length period immediately before {{ start }}.
+A change is only shown when data exists for all of it.</p>
+
+<div class="box">
+  <strong>How to read these numbers</strong>
+  <ul>
+    <li><strong>These are proxies for use, not counts of people.</strong> None of the sources identify individuals or institutions.</li>
+    <li><strong>Downloads</strong> include automated installs (continuous integration, containers, bots). Mirror traffic is excluded for PyPI. Counts are better read as trends than as numbers of users.</li>
+    <li><strong>Visitor-days and cloner-days</strong> are GitHub's daily unique counts added together. One person on five days counts five times, and the same person visiting several repositories counts once per repository. GitHub clone counts are inflated by automated clients and CI.</li>
+    <li><strong>Data coverage differs:</strong>
+      GitHub traffic from {{ coverage["GitHub traffic"] }},
+      npm downloads from {{ coverage["npm downloads"] }},
+      PyPI downloads from {{ coverage["PyPI downloads"] }}.
+      Earlier periods will understate that source.</li>
+  </ul>
+</div>
+
+<figure><img src="{{ png.downloads_by_project }}"><figcaption>Total package downloads per project in the period.</figcaption></figure>
+<figure><img src="{{ png.pypi }}"><figcaption>PyPI downloads over time, excluding mirrors.</figcaption></figure>
+
+<h2>Package downloads</h2>
+<figure><img src="{{ png.npm }}"><figcaption>npm downloads over time.</figcaption></figure>
+<table class="pair"><tr>
+  <td><figure><img src="{{ png.python }}"><figcaption>PyPI downloads by Python version.</figcaption></figure></td>
+  <td><figure><img src="{{ png.system }}"><figcaption>PyPI downloads by operating system.</figcaption></figure></td>
+</tr></table>
+
+<h2>GitHub</h2>
+<figure><img src="{{ png.github }}"><figcaption>Visitors and cloners across all repositories (weekly sums of daily unique counts).</figcaption></figure>
+<figure><img src="{{ png.github_projects }}"><figcaption>Visitor-days per project.</figcaption></figure>
+
+<h2>Where visitors come from</h2>
+<figure><img src="{{ png.referrers }}"><figcaption>Referrer unique visitors, from non-overlapping 14-day GitHub windows. Approximate.</figcaption></figure>
+
+<h2>Per-project detail</h2>
+<table>
+  <tr>{% for c in table_cols %}<th>{{ c }}</th>{% endfor %}</tr>
+  {% for row in table_rows %}
+  <tr>{% for v in row %}<td>{{ v }}</td>{% endfor %}</tr>
+  {% endfor %}
+</table>
+<p class="small">Projects group GitHub repositories and registry packages as defined in projects.yml.
+Visitor-days and cloner-days are sums of daily unique counts.</p>
+
+</body>
+</html>

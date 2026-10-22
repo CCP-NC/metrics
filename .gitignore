@@ -38,4 +38,6 @@ artifacts/
 .vscode/
 *.swp
 *.swo
+# Generated reports
+reports/
 __marimo__/

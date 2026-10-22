@@ -51,6 +51,8 @@ After verifying locally, commit and push changes to deploy the GitHub Actions wo
 
 **Summary**: A daily summary is maintained in `traffic-stats/summary.csv`.
 
+**Package downloads**: `.github/scripts/collect_downloads.py` reads `projects.yml` (which maps each project to its GitHub repos and PyPI/npm packages) and merges daily download counts from pypistats and npm into `traffic-stats/downloads.csv`. pypistats only keeps ~180 days, so the CSV is the long-term record. Run it locally with `python .github/scripts/collect_downloads.py` (set `GH_TOKEN` to also get a warning when an org repo is missing from `projects.yml`).
+
 ## Contributing
 
 Contributions are welcome! To contribute:

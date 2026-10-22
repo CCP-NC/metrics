@@ -61,6 +61,11 @@ jobs:
             python .github/scripts/collect_traffic.py "$repo"
           done
 
+      - name: Collect Package Downloads
+        env:
+          GH_TOKEN: ${{ secrets.TRAFFIC_METRICS_REPO }}  # Use scoped PAT
+        run: python .github/scripts/collect_downloads.py
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

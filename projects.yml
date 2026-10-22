@@ -1,0 +1,69 @@
+# Maps each CCP-NC project to its GitHub repos and package-registry names.
+# Used by the download collector and (later) the dashboard/report to join GitHub and registry data.
+org: CCP-NC
+
+# Repos deliberately left out of reporting (infrastructure or forks kept for upstream work).
+ignore:
+  - .github
+  - metrics
+  - staged-recipes
+  - pint_units_add
+  - ml-peg-nmr
+
+projects:
+  - name: Soprano
+    repos: [soprano]
+    pypi: [soprano]
+
+  - name: MagresView
+    repos: [magresview, magresview-2]
+
+  - name: crystvis-js
+    repos: [crystvis-js]
+    npm: ["@ccp-nc/crystvis-js"]
+
+  - name: crystcif-parse
+    repos: [crystcif-parse]
+    npm: ["@ccp-nc/crystcif-parse"]
+
+  - name: pynics
+    repos: [pynics]
+    pypi: [pynics]
+
+  - name: parse-fmt
+    repos: [parse-fmt]
+    pypi: [parse-fmt]
+
+  - name: CASTEPconv
+    repos: [castepconv]
+
+  - name: orgdisord
+    repos: [orgdisord]
+
+  - name: pymc-nmr
+    repos: [pymc-nmr]
+
+  - name: make-supercell
+    repos: [make-supercell]
+
+  - name: dipolar_averages
+    repos: [dipolar_averages]
+
+  - name: simpson-docker
+    repos: [simpson-docker]
+
+  - name: pspot-site
+    repos: [pspot-site]
+
+  - name: Magres Database
+    repos:
+      - ccpnc-database
+      - ccpnc-database-documentation
+      - ccpnc-magres-staging-docs
+      - ccpnc-magres-oasis
+      - ccpnc-nomad-oasis
+      - ccpnc-oasis-app
+      - nomad-oasis-schema-parser-plugin
+      - nomad-parser-magres
+      - nomad-parser-plugins-electronic-patch
+      - nomad-FAIR-nmr-units-patch

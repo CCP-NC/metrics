@@ -31971,8 +31971,8 @@
             {
                 "path": "/CCP-NC/soprano/issues",
                 "title": "/issues",
-                "count": 3,
-                "uniques": 2
+                "count": 4,
+                "uniques": 3
             },
             {
                 "path": "/CCP-NC/soprano/pulls",
@@ -32025,6 +32025,12 @@
             {
                 "path": "/ccp-nc/soprano/blob/main/soprano/nmr/tensor.py",
                 "title": "/blob/main/soprano/nmr/tensor.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/pytest.ini",
+                "title": "/blob/master/pytest.ini",
                 "count": 1,
                 "uniques": 1
             }

@@ -11398,5 +11398,28 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-30",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/blob/main/requirements_docs.txt",
+                "title": "/blob/main/requirements_docs.txt",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-oasis-app/pull/2",
+                "title": "/pull/2",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

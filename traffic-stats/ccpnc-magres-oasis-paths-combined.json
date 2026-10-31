@@ -6803,5 +6803,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-31",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/24388494207",
+                "title": "/actions/runs/24388494207",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/25041877898",
+                "title": "/actions/runs/25041877898",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pulls",
+                "title": "/pulls",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

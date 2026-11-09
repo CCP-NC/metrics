@@ -7172,5 +7172,64 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-11-09",
+        "data": [
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/pulls",
+                "title": "/pulls",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/actions/runs/25041877898",
+                "title": "/actions/runs/25041877898",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/commit/1e7814c6ae74331d4e119c7b397bfe9453a142a4",
+                "title": "/commit/1e7814c6ae74331d4e119c7b397bfe9453a142a4",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/commit/3b3fd0344c5fd6d61beaab87bf219cd68147fc87",
+                "title": "/commit/3b3fd0344c5fd6d61beaab87bf219cd68147fc87",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/commit/d863690e607192aace68ce638dbc04bf026d3ca6",
+                "title": "/commit/d863690e607192aace68ce638dbc04bf026d3ca6",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/commit/e758d82bbc131cca25d73180c27d9d145e68c066",
+                "title": "/commit/e758d82bbc131cca25d73180c27d9d145e68c066",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main/scripts",
+                "title": "/tree/main/scripts",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/ccpnc-magres-oasis/tree/main/tests",
+                "title": "/tree/main/tests",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

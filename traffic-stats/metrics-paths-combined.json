@@ -6777,5 +6777,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-11-10",
+        "data": [
+            {
+                "path": "/CCP-NC/metrics/blob/main/requirements.txt",
+                "title": "/blob/main/requirements.txt",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/metrics",
+                "title": "Overview",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/commit/0cf0296d25152b1197a6b4313ac448a41f3c41ac",
+                "title": "/commit/0cf0296d25152b1197a6b4313ac448a41f3c41ac",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/metrics/commit/228eddb60f662cd346ba0752b0ed92b95fb6240c",
+                "title": "/commit/228eddb60f662cd346ba0752b0ed92b95fb6240c",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

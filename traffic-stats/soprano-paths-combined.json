@@ -33349,5 +33349,70 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-11-12",
+        "data": [
+            {
+                "path": "/CCP-NC/soprano",
+                "title": "Overview",
+                "count": 9,
+                "uniques": 9
+            },
+            {
+                "path": "/ccp-nc/soprano",
+                "title": "Overview",
+                "count": 4,
+                "uniques": 4
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/a81992620e3f95923f854db7f03381f94d0688f9",
+                "title": "/commit/a81992620e3f95923f854db7f03381f94d0688f9",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/docs",
+                "title": "/tree/master/docs",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/soprano/tree/master/soprano",
+                "title": "/tree/master/soprano",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/soprano/nmr/tensor.py",
+                "title": "/blob/master/soprano/nmr/tensor.py",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/41d52b3da57457ec87192e6d68c4da6e58953989",
+                "title": "/commit/41d52b3da57457ec87192e6d68c4da6e58953989",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/8ffc4b1a6cdabe7f945109d505de6683bd24da52",
+                "title": "/commit/8ffc4b1a6cdabe7f945109d505de6683bd24da52",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/commit/e1697452685b316898e26590e0a1a535e64b81cf",
+                "title": "/commit/e1697452685b316898e26590e0a1a535e64b81cf",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/soprano/pull/52",
+                "title": "/pull/52",
+                "count": 2,
+                "uniques": 1
+            }
+        ]
     }
 ]

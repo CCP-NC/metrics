@@ -5018,8 +5018,10 @@ date,registry,package,metric,category,downloads
 2026-11-11,pypi,parse-fmt,python_minor,3.11,52
 2026-11-11,pypi,parse-fmt,python_minor,3.8,1
 2026-11-11,pypi,parse-fmt,python_minor,null,2
+2026-11-11,pypi,parse-fmt,python_minor,,2
 2026-11-11,pypi,parse-fmt,system,Linux,53
 2026-11-11,pypi,parse-fmt,system,null,2
+2026-11-11,pypi,parse-fmt,system,,2
 2026-11-11,pypi,soprano,overall,with_mirrors,125
 2026-11-11,pypi,soprano,overall,without_mirrors,124
 2026-11-11,pypi,soprano,python_minor,3.10,1
@@ -5027,9 +5029,13 @@ date,registry,package,metric,category,downloads
 2026-11-11,pypi,soprano,python_minor,3.12,66
 2026-11-11,pypi,soprano,python_minor,3.8,1
 2026-11-11,pypi,soprano,python_minor,null,1
+2026-11-11,pypi,soprano,python_minor,,1
 2026-11-11,pypi,soprano,system,Darwin,1
 2026-11-11,pypi,soprano,system,Linux,121
 2026-11-11,pypi,soprano,system,Windows,1
 2026-11-11,pypi,soprano,system,null,1
+2026-11-11,pypi,soprano,system,,1
 2026-11-12,npm,@ccp-nc/crystcif-parse,overall,all,0
 2026-11-12,npm,@ccp-nc/crystvis-js,overall,all,0
+2026-11-13,npm,@ccp-nc/crystcif-parse,overall,all,0
+2026-11-13,npm,@ccp-nc/crystvis-js,overall,all,0

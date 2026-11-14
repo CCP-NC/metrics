@@ -7441,5 +7441,34 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-11-14",
+        "data": [
+            {
+                "path": "/CCP-NC/dipolar_averages/commit/cfda3889e60df4119a7cb33deda0bb25e79cf115",
+                "title": "/commit/cfda3889e60df4119a7cb33deda0bb25e79cf115",
+                "count": 4,
+                "uniques": 4
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages",
+                "title": "Overview",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main/Examples",
+                "title": "/tree/main/Examples",
+                "count": 2,
+                "uniques": 2
+            },
+            {
+                "path": "/CCP-NC/dipolar_averages/tree/main/tests",
+                "title": "/tree/main/tests",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]

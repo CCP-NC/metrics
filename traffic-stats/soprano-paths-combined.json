@@ -34060,8 +34060,8 @@
             {
                 "path": "/ccp-nc/soprano",
                 "title": "Overview",
-                "count": 6,
-                "uniques": 4
+                "count": 7,
+                "uniques": 5
             },
             {
                 "path": "/ccp-nc/soprano/blob/master/tests/test_data/EDIZUM.magres",
@@ -34114,6 +34114,12 @@
             {
                 "path": "/CCP-NC/soprano/commits/master/README.md",
                 "title": "/commits/master/README.md",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/soprano/blob/master/pytest.ini",
+                "title": "/blob/master/pytest.ini",
                 "count": 1,
                 "uniques": 1
             }

@@ -13040,5 +13040,58 @@
                 "uniques": 1
             }
         ]
+    },
+    {
+        "timestamp": "2026-11-23",
+        "data": [
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin",
+                "title": "Overview",
+                "count": 3,
+                "uniques": 3
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/main/src/nomad_oasis_schema_parser_plugin",
+                "title": "/tree/main/src/nomad_oasis_schema_parser_plugin",
+                "count": 2,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/requirements_docs.txt",
+                "title": "/blob/main/requirements_docs.txt",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/src/nomad_oasis_schema_parser_plugin/__init__.py",
+                "title": "/blob/main/src/nomad_oasis_schema_parser_plugin/__init__.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/src/nomad_oasis_schema_parser_plugin/parsers/parser.py",
+                "title": "/blob/main/src/nomad_oasis_schema_parser_plugin/parsers/parser.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/blob/main/src/nomad_oasis_schema_parser_plugin/schema_packages/schema_package.py",
+                "title": "/blob/main/src/nomad_oasis_schema_parser_plugin/schema_packages/schema_package.py",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/main",
+                "title": "/tree/main",
+                "count": 1,
+                "uniques": 1
+            },
+            {
+                "path": "/CCP-NC/nomad-oasis-schema-parser-plugin/tree/main/src/nomad_oasis_schema_parser_plugin/parsers",
+                "title": "/tree/main/src/nomad_oasis_schema_parser_plugin/parsers",
+                "count": 1,
+                "uniques": 1
+            }
+        ]
     }
 ]
